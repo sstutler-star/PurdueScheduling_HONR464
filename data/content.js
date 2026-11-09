@@ -4,7 +4,7 @@
 window.RESEARCH_DATA = {
   updated: 'Draft — last revised 11/09/2026',
   sections: [
-    {title:'Literature discussion',body:'literature nonsens'},
+    {title:'Literature discussion',body:'The main conclusion from the literature is that different scheduling patterns– early class times (Yeo et al, 2023), back to back classes (Williams & Shapiro, 2018) and the "power hour" structure (Botswick & Nguyen, 2026) –are associated with different student outcomes. This project adds data analysis on the ways different majors are scheduled and scheduling outcomes at Purdue.'},
     {title:'Research question',body:'How do scheduled class times vary across Purdue subjects and colleges, and how stable are these patterns across semesters?'},
     {title:'Why it matters',body:'Class scheduling influences student course options, campus operations, and how the academic day is distributed.  It matters to any student or professor beholden to academic scheduling, as scheduling has been shown to have significant effects and associations on outcomes (grades, program success).'},
     {title:'Research design',body:'This is descriptive and data at hand/population. It’s reach is Purdue, West Lafayette campus, Fall and Spring 2026 (data from 2024 and 2025 will be added later).'},
