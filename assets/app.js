@@ -43,8 +43,24 @@ const cl=colleges();dropdown('#collegeSelect',cl,'Add college data first');dropd
 $('#significanceLinks').innerHTML=rows(d.significantFiles).map(r=>`<a class="resource-card" href="${esc(r.href)}" download><div><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p></div><span class="arrow">↘</span></a>`).join('');
 $('#semesterHighlights').innerHTML=rows(d.semesterHighlights).length?d.semesterHighlights.map(m=>`<div class="metric-card"><span>${esc(m.label)}</span><strong>${esc(m.value)}</strong><small>${esc(m.note)}</small></div>`).join(''):empty('Summary pending','Add verified semester-level statistics.');$('#semesterTable').innerHTML=table(d.semesterDifferences,semesterCols);
 let reg=d.regression||{};$('#regressionContent').innerHTML=`<div class="story-grid">${[['Research question',reg.question],['Binary outcome',reg.outcome],['Predictors',reg.predictors],['Model specification',reg.methods],['Results & interpretation',reg.findings],['Current status',reg.status]].map(([title,body],i)=>`<div class="story-card"><span class="story-index">MODEL / ${String(i+1).padStart(2,'0')}</span><h3>${esc(title)}</h3><p>${esc(body)}</p></div>`).join('')}</div>`;
-$('#checksContent').innerHTML=rows(d.checks).map((c,i)=>`<article class="check-item"><header><span class="check-num">${String(i+1).padStart(2,'0')}</span><h3>${esc(c.title)}</h3><span class="check-status">${esc(c.status)}</span></header><p>${esc(c.description)}</p></article>`).join('');$('#aiContent').innerHTML=`<p>${esc(d.aiDisclosure||'Add an accurate statement.')}</p>`;$('#codeText').textContent=d.code||'';
-$('#copyCode').onclick=async()=>{try{await navigator.clipboard.writeText(d.code||'');$('#copyCode').textContent='Copied ✓'}catch{$('#copyCode').textContent='Select code to copy'}};
+$('#checksContent').innerHTML=rows(d.checks).map((c,i)=>`<article class="check-item"><header><span class="check-num">${String(i+1).padStart(2,'0')}</span><h3>${esc(c.title)}</h3><span class="check-status">${esc(c.status)}</span></header><p>${esc(c.description)}</p></article>`).join('');$('#aiContent').innerHTML=`<p>${esc(d.aiDisclosure||'Add an accurate statement.')}</p>`;$('#codeText').textContent = 'Loading MATLAB code...';
+
+fetch('files/analysis_main.m')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Could not find analysis_main.m');
+    }
+    return response.text();
+  })
+  .then(code => {
+    $('#codeText').textContent = code;
+  })
+  .catch(error => {
+    $('#codeText').textContent =
+      'Unable to load MATLAB code. Please use the download button.';
+    console.error(error);
+  });
+$('#copyCode').onclick=async()=>{try{await navigator.clipboard.writeText($('#codeText').textContent);$('#copyCode').textContent='Copied ✓'}catch{$('#copyCode').textContent='Select code to copy'}};
 $('#loadPoster').onclick=()=>{$('#posterFrame').innerHTML='<iframe src="files/poster.pdf" title="Research poster"></iframe>';$('#loadPoster').scrollIntoView({behavior:'smooth',block:'nearest'})};
 $('#subjectSemester').onchange=renderSubject;$('#subjectSearch').oninput=renderSubject;$('#collegeSemester').onchange=renderCollege;$('#collegeSelect').onchange=renderMainPlots;$('#intervalDataset').onchange=renderMainPlots;$('#compareCollege').onchange=renderComparison;$('#compareMetric').onchange=renderComparison;renderSubject();renderCollege();renderMainPlots();renderComparison();renderAppendix('arrange');
 $$('[data-tabs]').forEach(group=>group.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{group.querySelectorAll('button').forEach(b=>b.classList.toggle('selected',b===btn));const key=group.dataset.tabs;if(key==='appendix'){renderAppendix(btn.dataset.tab);return}$$(`[data-group="${key}"]`).forEach(panel=>panel.classList.toggle('hidden',panel.dataset.panel!==btn.dataset.tab))})));
