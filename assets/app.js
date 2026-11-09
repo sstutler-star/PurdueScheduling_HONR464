@@ -37,7 +37,118 @@ const low=Math.min(0,...both.map(r=>r.lower)),high=Math.max(0,...both.map(r=>r.u
 const bounds={min:low-pad,max:high+pad};
 $('#compareMain').innerHTML=`<div class="plot-card">${plot('main',college,metric,bounds)}</div>`;
 $('#compareLecture').innerHTML=`<div class="plot-card">${plot('lecture',college,metric,bounds)}</div>`} 
-function renderAppendix(tab){let a=d.appendices?.[tab],place=$('#appendixContent');if(!a){place.innerHTML=empty();return}place.innerHTML=`<div class="section-heading"><div><h2>${esc(a.title)}</h2><p>${esc(a.description)}</p></div><a href="${esc(a.file)}" class="btn btn-outline dark-outline" download>CSV file ↓</a></div>`+(rows(a.rows).length?table(a.rows.map(row=>Array.isArray(row)?Object.fromEntries(a.columns.map((c,i)=>[c,row[i]])):row),a.columns.map(c=>({key:c,title:c}))):empty('No appendix rows loaded','Insert the complete matrix in data/content.js and add the corresponding CSV file.'))}
+
+function parseAppendixCsv(text) {
+  const records = [];
+  let record = [], cell = '', insideQuotes = false;
+  text = text.replace(/^\uFEFF/, '');
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '"' && (insideQuotes || cell === '')) {
+      if (insideQuotes && text[i + 1] === '"') {
+        cell += '"';
+        i++;
+      } else {
+        insideQuotes = !insideQuotes;
+      }
+    } else if (ch === ',' && !insideQuotes) {
+      record.push(cell);
+      cell = '';
+    } else if ((ch === '\n' || ch === '\r') && !insideQuotes) {
+      if (ch === '\r' && text[i + 1] === '\n') i++;
+      record.push(cell);
+      if (record.some(value => value.trim() !== '')) records.push(record);
+      record = [];
+      cell = '';
+    } else {
+      cell += ch;
+    }
+  }
+  record.push(cell);
+  if (record.some(value => value.trim() !== '')) records.push(record);
+  return records;
+}
+
+let latestAppendixRequest = 0;
+
+async function renderAppendix(tab) {
+  const a = d.appendices?.[tab];
+  const place = $('#appendixContent');
+  const request = ++latestAppendixRequest;
+  if (!a) {
+    place.innerHTML = empty('Appendix not configured');
+    return;
+  }
+
+  const heading = `<div class="section-heading"><div><h2>${esc(a.title)}</h2><p>${esc(a.description)}</p></div><a href="${esc(a.file)}" class="btn btn-outline dark-outline" download>Download complete CSV ↓</a></div>`;
+  place.innerHTML = heading + '<p class="help">Loading records...</p>';
+
+  try {
+    const response = await fetch(a.file + '?v=' + Date.now(), {cache:'no-store'});
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const records = parseAppendixCsv(await response.text());
+    if (request !== latestAppendixRequest) return;
+    if (records.length < 2) {
+      place.innerHTML = heading + empty('No records found', 'Check that the CSV contains a header row and data rows.');
+      return;
+    }
+
+    const columns = records[0].map((title, i) => ({
+      key: 'column' + i,
+      title: title.trim() || 'Column ' + (i + 1)
+    }));
+    const data = records.slice(1);
+    const pageSize = 100;
+    let page = 0;
+
+    place.innerHTML = heading + `
+      <div class="control-row">
+        <label class="search-label">Search appendix records
+          <input type="search" id="appendixSearch" placeholder="Search any column...">
+        </label>
+        <span id="appendixCount" class="help"></span>
+      </div>
+      <div id="appendixTable"></div>
+      <div class="control-row">
+        <button id="appendixPrev" class="btn btn-outline dark-outline">Previous</button>
+        <span id="appendixPage" class="help"></span>
+        <button id="appendixNext" class="btn btn-outline dark-outline">Next</button>
+      </div>`;
+
+    const search = $('#appendixSearch');
+    const update = () => {
+      const query = search.value.trim().toLowerCase();
+      const matches = query
+        ? data.filter(record => record.some(cell => cell.toLowerCase().includes(query)))
+        : data;
+      const pages = Math.max(1, Math.ceil(matches.length / pageSize));
+      page = Math.min(page, pages - 1);
+      const visible = matches.slice(page * pageSize, (page + 1) * pageSize);
+      const objects = visible.map(record => Object.fromEntries(
+        columns.map((col, i) => [col.key, record[i] ?? ''])
+      ));
+      $('#appendixTable').innerHTML = objects.length
+        ? table(objects, columns)
+        : empty('No matching records', 'Try a different search term.');
+      $('#appendixCount').textContent = `${matches.length.toLocaleString()} records`;
+      $('#appendixPage').textContent = `Page ${page + 1} of ${pages}`;
+      $('#appendixPrev').disabled = page === 0;
+      $('#appendixNext').disabled = page + 1 >= pages;
+    };
+
+    search.oninput = () => { page = 0; update(); };
+    $('#appendixPrev').onclick = () => { page--; update(); };
+    $('#appendixNext').onclick = () => { page++; update(); };
+    update();
+  } catch (error) {
+    if (request !== latestAppendixRequest) return;
+    place.innerHTML = heading + empty('Unable to load appendix CSV',
+      'Check the file path, filename, and GitHub Pages deployment.');
+    console.error('Appendix loading error:', error);
+  }
+}
+
 function init(){document.title='When Purdue Classes Meet | Research Companion';$('#updatedAt').textContent=d.updated||'Draft';$('#overviewSections').innerHTML=rows(d.sections).map((s,i)=>`<article class="story-card"><span class="story-index">${String(i+1).padStart(2,'0')} / RESEARCH</span><h3>${esc(s.title)}</h3><p>${esc(s.body)}</p></article>`).join('');
 const cl=colleges();dropdown('#collegeSelect',cl,'Add college data first');dropdown('#compareCollege',cl,'Add college data first');const met=rows(d.metrics);$('#compareMetric').innerHTML=met.map(m=>`<option value="${esc(m.id)}">${esc(m.name)}</option>`).join('');
 $('#significanceLinks').innerHTML=rows(d.significantFiles).map(r=>`<a class="resource-card" href="${esc(r.href)}" download><div><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p></div><span class="arrow">↘</span></a>`).join('');
