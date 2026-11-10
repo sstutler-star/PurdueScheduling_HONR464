@@ -1,0 +1,50 @@
+﻿college,other,metric,estimate,lower,upper,significant
+Agriculture,Education,start,-70.16,-112.95,-27.37,True
+Agriculture,Education,after5,-0.1803,-0.2815,-0.0866,True
+Agriculture,Education,outside,-0.1344,-0.2496,-0.0207,True
+Agriculture,Engineering,start,-28.59,-56.23,-0.96,True
+Agriculture,Veterinary Medicine,start,55.65,6.86,104.44,True
+Agriculture,Business,after5,-0.0753,-0.1311,-0.0111,True
+Agriculture,Business,outside,-0.0886,-0.1679,-0.0019,True
+Education,Engineering,start,41.57,2.61,80.53,True
+Education,Engineering,after5,0.1244,0.0395,0.2244,True
+Education,Health and Human Sciences,start,65.34,24.61,106.07,True
+Education,Health and Human Sciences,after5,0.1665,0.0777,0.2671,True
+Education,Health and Human Sciences,outside,0.1131,0.0069,0.2247,True
+Education,Liberal Arts,start,51.82,14.05,89.6,True
+Education,Liberal Arts,after5,0.1439,0.0623,0.2421,True
+Education,Liberal Arts,outside,0.1196,0.0249,0.2237,True
+Education,Pharmacy,start,80.88,14.3,147.46,True
+Education,Science,start,53.2,14.48,91.92,True
+Education,Science,after5,0.1595,0.0762,0.2584,True
+Education,Science,outside,0.1268,0.0291,0.2329,True
+Education,Veterinary Medicine,start,125.81,70.07,181.56,True
+Education,Veterinary Medicine,after5,0.2593,0.1426,0.3551,True
+Education,Business,start,40.78,0.08,81.49,True
+Education,Business,after5,0.105,0.0155,0.2075,True
+Education,Provost,after5,0.1496,0.035,0.2579,True
+Education,Provost,outside,0.1699,0.0392,0.291,True
+Education,Polytechnic,start,60.83,18.57,103.09,True
+Education,Polytechnic,after5,0.1293,0.0374,0.2321,True
+Engineering,Veterinary Medicine,start,84.24,38.69,129.8,True
+Engineering,Veterinary Medicine,after5,0.1349,0.0429,0.17,True
+Health and Human Sciences,Veterinary Medicine,start,60.47,13.44,107.51,True
+Health and Human Sciences,Veterinary Medicine,after5,0.0928,0.0001,0.1365,True
+Health and Human Sciences,Business,after5,-0.0615,-0.1161,-0.0046,True
+Liberal Arts,Veterinary Medicine,start,73.99,29.41,118.57,True
+Liberal Arts,Veterinary Medicine,after5,0.1154,0.0253,0.1415,True
+Liberal Arts,Business,outside,-0.0738,-0.136,-0.0141,True
+Science,Veterinary Medicine,start,72.61,27.26,117.97,True
+Science,Veterinary Medicine,after5,0.0998,0.009,0.131,True
+Science,Business,after5,-0.0545,-0.1059,-0.0066,True
+Science,Business,outside,-0.081,-0.1464,-0.0166,True
+Veterinary Medicine,Libraries,start,-101.11,-190.7,-11.53,True
+Veterinary Medicine,Business,start,-85.03,-132.04,-38.01,True
+Veterinary Medicine,Business,after5,-0.1543,-0.1994,-0.0596,True
+Veterinary Medicine,Provost,start,-88.18,-141.13,-35.22,True
+Veterinary Medicine,Provost,before9,0.1276,0.0046,0.2806,True
+Veterinary Medicine,Provost,after5,-0.1097,-0.1943,-0.0087,True
+Veterinary Medicine,Polytechnic,start,-64.98,-113.32,-16.65,True
+Veterinary Medicine,Polytechnic,after5,-0.13,-0.1797,-0.0349,True
+Business,Provost,outside,0.1241,0.0159,0.2117,True
+Provost,Polytechnic,before9,-0.0897,-0.1565,-0.0018,True

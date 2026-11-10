@@ -1,0 +1,6 @@
+﻿subject1,subject2,metric,ciLower,ciUpper,units
+LA,AD,Average Start Time,-456.56,-9.73,minutes
+EDPS,SCLA,After 5 PM,1.02,49.52,percentage points
+SCLA,AD,After 5 PM,-59.28,-0.21,percentage points
+TDM,AFT,Before 9:30 AM,-88.32,-0.99,percentage points
+TDM,CM,Outside 9-to-5,-71.6,-1.56,percentage points
