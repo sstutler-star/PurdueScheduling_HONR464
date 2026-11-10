@@ -1,0 +1,658 @@
+﻿subject1,subject2,metric,ciLower,ciUpper,units
+NRES,EDST,Average Start Time,-495.7,-66.72,minutes
+NRES,EDST,After 5 PM,-95.9,-8.29,percentage points
+NRES,NUR,Outside 9-to-5,-71.19,-5.72,percentage points
+AGEC,EDST,Average Start Time,-453.91,-62.91,minutes
+AGEC,EDST,After 5 PM,-96.0,-13.34,percentage points
+AGEC,VIP,Average Start Time,-273.09,-7.66,minutes
+AGEC,NUR,Average Start Time,23.97,298.93,minutes
+AGEC,NUR,Before 9:30 AM,-60.72,-1.89,percentage points
+AGEC,NUR,Outside 9-to-5,-68.43,-8.24,percentage points
+ASEC,NUR,Average Start Time,8.51,392.79,minutes
+AGRY,EDST,Average Start Time,-463.09,-84.92,minutes
+AGRY,EDST,After 5 PM,-90.41,-7.8,percentage points
+AGRY,VIP,Average Start Time,-257.57,-54.36,minutes
+AGRY,NUR,Average Start Time,36.76,254.95,minutes
+AGRY,NUR,Before 9:30 AM,-59.57,-12.33,percentage points
+AGRY,NUR,Outside 9-to-5,-59.2,-7.51,percentage points
+ANSC,EDST,Average Start Time,-471.49,-92.33,minutes
+ANSC,EDST,After 5 PM,-92.75,-12.47,percentage points
+ANSC,EDST,Outside 9-to-5,-87.79,-2.89,percentage points
+ANSC,VIP,Average Start Time,-261.66,-66.09,minutes
+ANSC,NUR,Average Start Time,32.36,243.54,minutes
+ANSC,NUR,Before 9:30 AM,-63.18,-18.27,percentage points
+ANSC,NUR,Outside 9-to-5,-65.87,-17.01,percentage points
+ANSC,AD,Outside 9-to-5,-53.8,-0.31,percentage points
+BCHM,EDST,Average Start Time,-474.33,-73.45,minutes
+BCHM,VIP,Average Start Time,-300.54,-11.16,minutes
+BCHM,NUR,Before 9:30 AM,-62.39,-1.12,percentage points
+BTNY,EDST,Average Start Time,-480.96,-94.35,minutes
+BTNY,EDST,After 5 PM,-91.45,-3.08,percentage points
+BTNY,VIP,Average Start Time,-296.29,-42.94,minutes
+BTNY,NUR,Average Start Time,0.21,264.2,minutes
+BTNY,NUR,Before 9:30 AM,-60.88,-4.94,percentage points
+BTNY,NUR,Outside 9-to-5,-62.03,-0.88,percentage points
+ENTM,EDST,Average Start Time,-475.2,-87.15,minutes
+ENTM,EDST,After 5 PM,-92.96,-6.21,percentage points
+ENTM,VIP,Average Start Time,-291.98,-34.29,minutes
+ENTM,NUR,Average Start Time,4.7,272.68,minutes
+ENTM,NUR,Before 9:30 AM,-62.24,-6.56,percentage points
+ENTM,NUR,Outside 9-to-5,-65.46,-5.28,percentage points
+FS,EDST,Average Start Time,-465.14,-63.16,minutes
+FS,EDST,After 5 PM,-92.12,-1.2,percentage points
+FS,NUR,Average Start Time,5.43,305.99,minutes
+FS,NUR,Before 9:30 AM,-61.91,-2.09,percentage points
+FNR,EDST,Average Start Time,-476.12,-96.54,minutes
+FNR,EDST,After 5 PM,-90.78,-8.43,percentage points
+FNR,VIP,Average Start Time,-264.9,-71.68,minutes
+FNR,NUR,Average Start Time,29.01,238.05,minutes
+FNR,NUR,Before 9:30 AM,-57.95,-9.59,percentage points
+FNR,NUR,Outside 9-to-5,-57.98,-5.76,percentage points
+HORT,EDST,Average Start Time,-456.13,-74.11,minutes
+HORT,EDST,After 5 PM,-91.72,-4.42,percentage points
+HORT,EDST,Outside 9-to-5,-90.58,-1.86,percentage points
+HORT,VIP,Average Start Time,-263.84,-30.33,minutes
+HORT,NUR,Average Start Time,32.0,277.48,minutes
+HORT,NUR,Before 9:30 AM,-68.28,-18.26,percentage points
+HORT,NUR,Outside 9-to-5,-68.56,-12.35,percentage points
+LA,EDST,Average Start Time,-479.96,-75.12,minutes
+LA,EDST,After 5 PM,-96.5,-7.83,percentage points
+LA,EDST,Outside 9-to-5,-94.84,-2.82,percentage points
+LA,VIP,Average Start Time,-307.31,-11.69,minutes
+LA,NUR,Before 9:30 AM,-66.18,-0.05,percentage points
+LA,NUR,Outside 9-to-5,-73.78,-7.56,percentage points
+EDCI,EDST,Average Start Time,-463.72,-86.44,minutes
+EDCI,EDST,After 5 PM,-87.2,-6.96,percentage points
+EDCI,VIP,Average Start Time,-255.49,-58.6,minutes
+EDCI,VIP,Before 9:30 AM,6.71,45.71,percentage points
+EDCI,NUR,Average Start Time,38.39,251.18,minutes
+EDCI,NUR,Before 9:30 AM,-50.29,-5.76,percentage points
+EDCI,SCLA,Outside 9-to-5,4.09,48.79,percentage points
+EDCI,THTR,Before 9:30 AM,1.72,46.11,percentage points
+EDCI,CS,Before 9:30 AM,6.14,41.9,percentage points
+EDCI,STAT,Outside 9-to-5,0.14,46.06,percentage points
+EDCI,TDM,Before 9:30 AM,7.05,44.45,percentage points
+EDCI,TDM,Outside 9-to-5,4.62,49.57,percentage points
+EDPS,EDST,Average Start Time,-389.64,-13.14,minutes
+EDPS,CHE,Outside 9-to-5,1.16,54.63,percentage points
+EDPS,PSY,After 5 PM,0.89,51.61,percentage points
+EDPS,NUR,Average Start Time,105.78,331.16,minutes
+EDPS,NUR,Before 9:30 AM,-57.88,-14.93,percentage points
+EDPS,NUR,After 5 PM,0.93,44.88,percentage points
+EDPS,COM,After 5 PM,0.84,45.21,percentage points
+EDPS,SCLA,After 5 PM,7.86,50.38,percentage points
+EDPS,SCLA,Outside 9-to-5,8.03,54.47,percentage points
+EDPS,SPAN,After 5 PM,0.38,49.46,percentage points
+EDPS,CS,Outside 9-to-5,3.52,47.7,percentage points
+EDPS,MA,After 5 PM,5.63,46.27,percentage points
+EDPS,MA,Outside 9-to-5,2.67,46.37,percentage points
+EDPS,STAT,After 5 PM,4.06,47.86,percentage points
+EDPS,STAT,Outside 9-to-5,4.12,51.73,percentage points
+EDPS,TDM,Outside 9-to-5,8.58,55.25,percentage points
+EDPS,MET,Outside 9-to-5,0.0,51.56,percentage points
+EDST,ENGR,Average Start Time,67.63,445.66,minutes
+EDST,ENGR,After 5 PM,4.84,88.1,percentage points
+EDST,EPCS,Average Start Time,83.82,468.44,minutes
+EDST,ABE,Average Start Time,55.4,435.1,minutes
+EDST,ABE,After 5 PM,7.56,92.34,percentage points
+EDST,ABE,Outside 9-to-5,4.12,90.81,percentage points
+EDST,ASM,Average Start Time,46.89,461.09,minutes
+EDST,ASM,After 5 PM,6.7,94.8,percentage points
+EDST,ASM,Outside 9-to-5,2.79,93.52,percentage points
+EDST,CCE,Average Start Time,96.24,474.72,minutes
+EDST,CCE,After 5 PM,10.51,91.7,percentage points
+EDST,AAE,Average Start Time,48.6,441.9,minutes
+EDST,AAE,After 5 PM,4.59,83.73,percentage points
+EDST,CHE,Average Start Time,71.49,453.03,minutes
+EDST,CHE,After 5 PM,14.36,92.6,percentage points
+EDST,CHE,Outside 9-to-5,6.35,88.17,percentage points
+EDST,ECE,Average Start Time,81.42,487.94,minutes
+EDST,ECE,After 5 PM,9.96,85.64,percentage points
+EDST,IE,Average Start Time,61.35,438.89,minutes
+EDST,IE,After 5 PM,8.0,89.63,percentage points
+EDST,MSE,Average Start Time,99.96,479.8,minutes
+EDST,MSE,After 5 PM,15.22,95.27,percentage points
+EDST,ME,Average Start Time,76.84,488.58,minutes
+EDST,ME,After 5 PM,13.62,88.13,percentage points
+EDST,NUCL,Average Start Time,71.38,459.31,minutes
+EDST,NUCL,After 5 PM,2.53,90.73,percentage points
+EDST,EEE,Average Start Time,76.86,499.06,minutes
+EDST,EEE,After 5 PM,6.05,95.17,percentage points
+EDST,BME,Average Start Time,102.37,481.23,minutes
+EDST,BME,After 5 PM,11.9,93.45,percentage points
+EDST,HK,Average Start Time,106.46,487.29,minutes
+EDST,HK,After 5 PM,16.89,94.18,percentage points
+EDST,HK,Outside 9-to-5,4.01,87.33,percentage points
+EDST,PES,Average Start Time,98.88,512.4,minutes
+EDST,PES,After 5 PM,12.36,94.83,percentage points
+EDST,HDFS,Average Start Time,114.86,495.0,minutes
+EDST,HDFS,After 5 PM,11.53,93.37,percentage points
+EDST,NUTR,Average Start Time,128.22,512.49,minutes
+EDST,NUTR,After 5 PM,14.7,95.8,percentage points
+EDST,PSY,Average Start Time,122.57,502.82,minutes
+EDST,PSY,After 5 PM,20.44,96.24,percentage points
+EDST,PUBH,Average Start Time,37.81,474.38,minutes
+EDST,PUBH,After 5 PM,3.86,94.48,percentage points
+EDST,SLHS,Average Start Time,72.05,455.31,minutes
+EDST,SLHS,After 5 PM,8.26,93.6,percentage points
+EDST,HSCI,Average Start Time,102.44,498.73,minutes
+EDST,HSCI,After 5 PM,10.45,95.25,percentage points
+EDST,CSR,Average Start Time,107.72,507.56,minutes
+EDST,CSR,After 5 PM,13.1,96.43,percentage points
+EDST,HTM,Average Start Time,128.53,509.24,minutes
+EDST,HTM,After 5 PM,11.09,92.42,percentage points
+EDST,NUR,Average Start Time,228.95,610.77,minutes
+EDST,NUR,After 5 PM,15.82,90.69,percentage points
+EDST,COM,Average Start Time,79.94,475.05,minutes
+EDST,COM,After 5 PM,16.0,91.05,percentage points
+EDST,GS,Average Start Time,61.62,520.45,minutes
+EDST,GS,After 5 PM,8.74,99.85,percentage points
+EDST,GS,Outside 9-to-5,5.52,97.3,percentage points
+EDST,SCLA,Average Start Time,75.69,484.39,minutes
+EDST,SCLA,After 5 PM,22.23,94.98,percentage points
+EDST,SCLA,Outside 9-to-5,9.92,86.71,percentage points
+EDST,ANTH,Average Start Time,43.01,421.9,minutes
+EDST,ANTH,After 5 PM,12.57,93.81,percentage points
+EDST,ANTH,Outside 9-to-5,3.42,89.63,percentage points
+EDST,ENGL,Average Start Time,51.2,436.16,minutes
+EDST,ENGL,After 5 PM,11.07,89.79,percentage points
+EDST,HIST,Average Start Time,28.14,409.41,minutes
+EDST,PHIL,Average Start Time,93.12,471.22,minutes
+EDST,PHIL,After 5 PM,11.55,91.65,percentage points
+EDST,POL,Average Start Time,101.8,481.08,minutes
+EDST,POL,After 5 PM,13.45,94.45,percentage points
+EDST,POL,Outside 9-to-5,0.44,88.58,percentage points
+EDST,SOC,Average Start Time,70.09,450.91,minutes
+EDST,SOC,After 5 PM,14.41,94.87,percentage points
+EDST,SOC,Outside 9-to-5,1.2,89.04,percentage points
+EDST,AD,Average Start Time,66.74,453.84,minutes
+EDST,DANC,Average Start Time,68.98,465.17,minutes
+EDST,DANC,After 5 PM,0.16,93.17,percentage points
+EDST,MUS,Average Start Time,64.11,453.67,minutes
+EDST,MUS,After 5 PM,7.86,93.85,percentage points
+EDST,THTR,Average Start Time,77.11,459.67,minutes
+EDST,THTR,After 5 PM,4.31,87.92,percentage points
+EDST,THTR,Outside 9-to-5,4.31,87.92,percentage points
+EDST,LING,Average Start Time,4.17,459.61,minutes
+EDST,ASL,Average Start Time,48.19,565.58,minutes
+EDST,ASL,After 5 PM,6.89,99.85,percentage points
+EDST,CHNS,Average Start Time,66.48,507.3,minutes
+EDST,CHNS,After 5 PM,0.89,95.18,percentage points
+EDST,CHNS,Outside 9-to-5,0.89,95.18,percentage points
+EDST,FR,Average Start Time,91.63,509.48,minutes
+EDST,FR,After 5 PM,6.87,94.43,percentage points
+EDST,GER,Average Start Time,60.18,464.26,minutes
+EDST,GER,After 5 PM,12.47,96.36,percentage points
+EDST,GER,Outside 9-to-5,10.57,95.67,percentage points
+EDST,ITAL,Average Start Time,108.14,508.95,minutes
+EDST,ITAL,After 5 PM,9.3,99.85,percentage points
+EDST,ITAL,Outside 9-to-5,9.3,99.85,percentage points
+EDST,JPNS,Average Start Time,44.97,471.45,minutes
+EDST,JPNS,After 5 PM,4.37,94.54,percentage points
+EDST,KOR,Average Start Time,77.87,537.41,minutes
+EDST,KOR,After 5 PM,2.7,97.04,percentage points
+EDST,KOR,Outside 9-to-5,2.7,97.04,percentage points
+EDST,LATN,Average Start Time,10.54,590.32,minutes
+EDST,LC,Average Start Time,88.7,493.33,minutes
+EDST,LC,After 5 PM,9.98,96.08,percentage points
+EDST,RUSS,Average Start Time,0.56,525.21,minutes
+EDST,RUSS,After 5 PM,3.78,96.11,percentage points
+EDST,RUSS,Outside 9-to-5,3.78,96.11,percentage points
+EDST,SPAN,Average Start Time,97.76,478.59,minutes
+EDST,SPAN,After 5 PM,18.73,94.8,percentage points
+EDST,SPAN,Outside 9-to-5,1.96,85.51,percentage points
+EDST,PHSC,Average Start Time,92.41,592.64,minutes
+EDST,PHRM,Average Start Time,91.21,469.58,minutes
+EDST,PHRM,After 5 PM,3.54,88.99,percentage points
+EDST,BIOL,Average Start Time,92.1,499.39,minutes
+EDST,BIOL,After 5 PM,10.02,85.35,percentage points
+EDST,CHM,Average Start Time,74.13,490.44,minutes
+EDST,CHM,After 5 PM,2.5,77.31,percentage points
+EDST,CS,Average Start Time,38.33,457.6,minutes
+EDST,CS,After 5 PM,8.6,83.4,percentage points
+EDST,CS,Outside 9-to-5,4.12,79.66,percentage points
+EDST,EAPS,Average Start Time,87.14,468.29,minutes
+EDST,EAPS,After 5 PM,7.31,89.57,percentage points
+EDST,MA,Average Start Time,60.5,479.57,minutes
+EDST,MA,After 5 PM,18.61,91.09,percentage points
+EDST,MA,Outside 9-to-5,3.05,78.19,percentage points
+EDST,PHYS,Average Start Time,66.85,474.03,minutes
+EDST,PHYS,After 5 PM,8.16,83.82,percentage points
+EDST,STAT,Average Start Time,67.72,466.63,minutes
+EDST,STAT,After 5 PM,19.06,93.13,percentage points
+EDST,STAT,Outside 9-to-5,6.4,84.51,percentage points
+EDST,VM,Average Start Time,60.21,633.43,minutes
+EDST,BMS,Average Start Time,101.19,526.31,minutes
+EDST,CPB,Average Start Time,90.87,499.66,minutes
+EDST,CPB,After 5 PM,6.26,94.75,percentage points
+EDST,VCS,Average Start Time,118.51,501.79,minutes
+EDST,VCS,After 5 PM,0.94,90.08,percentage points
+EDST,EXPL,Average Start Time,17.84,539.94,minutes
+EDST,EXPL,After 5 PM,0.89,95.18,percentage points
+EDST,HONR,Average Start Time,43.65,423.69,minutes
+EDST,HONR,After 5 PM,12.15,92.31,percentage points
+EDST,HONR,Outside 9-to-5,6.14,89.2,percentage points
+EDST,ILS,Average Start Time,43.72,455.59,minutes
+EDST,ILS,After 5 PM,7.53,99.85,percentage points
+EDST,ILS,Outside 9-to-5,7.53,99.85,percentage points
+EDST,ACCT,Average Start Time,30.15,494.0,minutes
+EDST,ACCT,After 5 PM,0.16,93.17,percentage points
+EDST,DSB,Average Start Time,41.71,507.64,minutes
+EDST,DSB,After 5 PM,1.02,94.17,percentage points
+EDST,ECON,Average Start Time,60.79,440.83,minutes
+EDST,ECON,After 5 PM,7.8,90.41,percentage points
+EDST,FIN,Average Start Time,20.67,444.25,minutes
+EDST,MIS,After 5 PM,1.59,95.25,percentage points
+EDST,OBHR,Average Start Time,65.51,461.41,minutes
+EDST,OBHR,After 5 PM,6.21,92.96,percentage points
+EDST,QM,Average Start Time,30.53,519.68,minutes
+EDST,STRT,Average Start Time,76.96,512.91,minutes
+EDST,STRT,After 5 PM,8.29,95.9,percentage points
+EDST,TDM,Average Start Time,49.06,457.23,minutes
+EDST,TDM,After 5 PM,12.4,88.69,percentage points
+EDST,TDM,Outside 9-to-5,10.63,87.46,percentage points
+EDST,ENTR,Average Start Time,27.39,498.96,minutes
+EDST,NS,After 5 PM,1.57,99.85,percentage points
+EDST,TLI,Average Start Time,93.05,504.72,minutes
+EDST,TLI,After 5 PM,12.48,96.98,percentage points
+EDST,TECH,Average Start Time,57.3,470.48,minutes
+EDST,TECH,After 5 PM,8.71,95.04,percentage points
+EDST,CGT,Average Start Time,43.83,425.43,minutes
+EDST,CGT,After 5 PM,5.08,86.18,percentage points
+EDST,CNIT,Average Start Time,85.31,485.68,minutes
+EDST,CNIT,After 5 PM,8.17,84.71,percentage points
+EDST,AFT,Average Start Time,99.28,725.16,minutes
+EDST,AFT,After 5 PM,1.57,99.85,percentage points
+EDST,AT,Average Start Time,89.77,491.98,minutes
+EDST,AT,After 5 PM,9.29,85.44,percentage points
+EDST,CM,Average Start Time,87.82,465.02,minutes
+EDST,CM,After 5 PM,5.33,88.11,percentage points
+EDST,ECET,Average Start Time,110.92,496.86,minutes
+EDST,ECET,After 5 PM,11.39,89.81,percentage points
+EDST,ENGT,Average Start Time,106.35,527.06,minutes
+EDST,ENGT,After 5 PM,1.98,92.62,percentage points
+EDST,IET,Average Start Time,81.49,586.29,minutes
+EDST,IET,After 5 PM,4.17,97.18,percentage points
+EDST,MET,Average Start Time,110.22,499.74,minutes
+EDST,MET,After 5 PM,14.85,91.91,percentage points
+EDST,MET,Outside 9-to-5,4.02,85.19,percentage points
+EDST,MFET,Average Start Time,95.13,473.72,minutes
+EDST,MFET,After 5 PM,5.7,88.55,percentage points
+EDST,CE,Average Start Time,73.23,451.81,minutes
+EDST,CE,After 5 PM,4.43,89.46,percentage points
+EDST,MGMT,Average Start Time,63.85,458.91,minutes
+EDST,MGMT,After 5 PM,11.83,88.13,percentage points
+ENGR,VIP,Average Start Time,-238.62,-38.59,minutes
+ENGR,NUR,Average Start Time,55.52,270.91,minutes
+ENGR,NUR,Before 9:30 AM,-62.94,-19.64,percentage points
+ENGR,NUR,Outside 9-to-5,-59.77,-10.29,percentage points
+EPCS,VIP,Average Start Time,-282.62,-33.56,minutes
+EPCS,NUR,Average Start Time,13.55,273.91,minutes
+EPCS,NUR,Before 9:30 AM,-57.19,-1.8,percentage points
+EPCS,TDM,Before 9:30 AM,0.07,50.01,percentage points
+VIP,ABE,Average Start Time,18.55,235.88,minutes
+VIP,CCE,Average Start Time,67.62,267.26,minutes
+VIP,CCE,Before 9:30 AM,-44.51,-0.38,percentage points
+VIP,AAE,Average Start Time,48.69,205.74,minutes
+VIP,CHE,Average Start Time,53.21,235.23,minutes
+VIP,ECE,Average Start Time,95.71,237.57,minutes
+VIP,ECE,Before 9:30 AM,-32.46,-4.23,percentage points
+VIP,IE,Average Start Time,30.49,233.68,minutes
+VIP,MSE,Average Start Time,60.42,283.26,minutes
+VIP,ME,Average Start Time,96.07,233.28,minutes
+VIP,ME,After 5 PM,2.72,42.27,percentage points
+VIP,NUCL,Average Start Time,17.74,276.87,minutes
+VIP,EEE,Average Start Time,3.66,336.18,minutes
+VIP,BME,Average Start Time,65.5,282.02,minutes
+VIP,BME,Before 9:30 AM,-49.55,-0.71,percentage points
+VIP,HK,Average Start Time,86.19,271.48,minutes
+VIP,HK,After 5 PM,0.75,48.34,percentage points
+VIP,PES,Average Start Time,29.03,346.18,minutes
+VIP,PES,Before 9:30 AM,-54.41,-0.2,percentage points
+VIP,HDFS,Average Start Time,71.84,301.94,minutes
+VIP,HDFS,Before 9:30 AM,-54.08,-3.36,percentage points
+VIP,NUTR,Average Start Time,80.01,324.62,minutes
+VIP,PSY,Average Start Time,99.95,289.37,minutes
+VIP,PSY,Before 9:30 AM,-48.64,-3.22,percentage points
+VIP,PSY,After 5 PM,3.81,51.49,percentage points
+VIP,SLHS,Average Start Time,26.39,264.9,minutes
+VIP,HSCI,Average Start Time,42.9,322.19,minutes
+VIP,CSR,Average Start Time,45.83,333.37,minutes
+VIP,HTM,Average Start Time,82.02,319.68,minutes
+VIP,HTM,Before 9:30 AM,-61.23,-10.98,percentage points
+VIP,NUR,Average Start Time,213.55,390.1,minutes
+VIP,NUR,Before 9:30 AM,-70.26,-36.55,percentage points
+VIP,NUR,After 5 PM,4.06,44.84,percentage points
+VIP,NUR,Outside 9-to-5,-51.61,-7.64,percentage points
+VIP,COM,Average Start Time,82.23,236.68,minutes
+VIP,COM,Before 9:30 AM,-30.77,-0.5,percentage points
+VIP,COM,After 5 PM,3.96,45.17,percentage points
+VIP,SCLA,Average Start Time,91.98,232.03,minutes
+VIP,SCLA,After 5 PM,11.02,50.26,percentage points
+VIP,ANTH,Average Start Time,7.93,220.9,minutes
+VIP,ENGL,Average Start Time,39.67,211.61,minutes
+VIP,PHIL,Average Start Time,64.73,263.53,minutes
+VIP,PHIL,Before 9:30 AM,-41.79,-0.02,percentage points
+VIP,POL,Average Start Time,65.82,280.98,minutes
+VIP,SOC,Average Start Time,26.39,258.53,minutes
+VIP,AD,Average Start Time,58.78,225.72,minutes
+VIP,AD,Before 9:30 AM,-36.06,-1.92,percentage points
+VIP,DANC,Average Start Time,11.52,286.55,minutes
+VIP,MUS,Average Start Time,10.01,271.69,minutes
+VIP,THTR,Average Start Time,60.05,240.65,minutes
+VIP,FR,Average Start Time,20.25,344.78,minutes
+VIP,ITAL,Average Start Time,50.23,330.78,minutes
+VIP,LC,Average Start Time,24.36,321.59,minutes
+VIP,SPAN,Average Start Time,77.99,262.28,minutes
+VIP,SPAN,After 5 PM,3.34,49.38,percentage points
+VIP,PHSC,Before 9:30 AM,-73.01,-0.94,percentage points
+VIP,PHRM,Average Start Time,56.94,267.77,minutes
+VIP,BIOL,Average Start Time,107.15,248.27,minutes
+VIP,BIOL,Before 9:30 AM,-28.21,-1.63,percentage points
+VIP,CHM,Average Start Time,97.54,230.96,minutes
+VIP,CHM,Before 9:30 AM,-31.25,-7.2,percentage points
+VIP,CS,Average Start Time,64.31,195.54,minutes
+VIP,EAPS,Average Start Time,67.23,252.12,minutes
+VIP,MA,Average Start Time,86.31,217.68,minutes
+VIP,MA,Before 9:30 AM,-23.91,-0.53,percentage points
+VIP,MA,After 5 PM,8.88,46.16,percentage points
+VIP,PHYS,Average Start Time,81.8,223.0,minutes
+VIP,STAT,Average Start Time,74.15,224.12,minutes
+VIP,STAT,After 5 PM,7.18,47.78,percentage points
+VIP,VM,Before 9:30 AM,-77.13,-2.01,percentage points
+VIP,BMS,Average Start Time,26.5,364.91,minutes
+VIP,CPB,Average Start Time,23.99,330.46,minutes
+VIP,VCS,Average Start Time,71.64,312.59,minutes
+VIP,VCS,Before 9:30 AM,-53.95,-0.09,percentage points
+VIP,HONR,Average Start Time,20.72,210.55,minutes
+VIP,ECON,Average Start Time,14.94,250.61,minutes
+VIP,ECON,Before 9:30 AM,-44.22,-0.03,percentage points
+VIP,OBHR,Average Start Time,5.42,285.42,minutes
+VIP,STRT,Before 9:30 AM,-67.79,-1.02,percentage points
+VIP,TDM,Average Start Time,64.82,205.39,minutes
+VIP,ENTR,Before 9:30 AM,-66.85,-0.15,percentage points
+VIP,TLI,Average Start Time,24.65,337.05,minutes
+VIP,CGT,Average Start Time,26.53,206.65,minutes
+VIP,CNIT,Average Start Time,93.41,241.5,minutes
+VIP,AFT,Before 9:30 AM,-92.19,-8.84,percentage points
+VIP,AT,Average Start Time,99.77,245.91,minutes
+VIP,AT,Before 9:30 AM,-29.65,-1.49,percentage points
+VIP,CM,Average Start Time,53.85,262.92,minutes
+VIP,ECET,Average Start Time,100.96,270.74,minutes
+VIP,ENGT,Average Start Time,33.81,363.52,minutes
+VIP,MET,Average Start Time,105.19,268.69,minutes
+VIP,MET,After 5 PM,0.56,45.57,percentage points
+VIP,MFET,Average Start Time,68.47,264.31,minutes
+VIP,CE,Average Start Time,41.63,247.33,minutes
+VIP,MGMT,Average Start Time,66.1,220.58,minutes
+ABE,NUR,Average Start Time,59.27,289.95,minutes
+ABE,NUR,Before 9:30 AM,-67.61,-19.67,percentage points
+ABE,NUR,Outside 9-to-5,-68.98,-15.58,percentage points
+ASM,NUR,Average Start Time,4.04,327.7,minutes
+ASM,NUR,Before 9:30 AM,-67.11,-7.4,percentage points
+ASM,NUR,Outside 9-to-5,-71.93,-9.78,percentage points
+CCE,NUR,Average Start Time,26.92,241.85,minutes
+CCE,NUR,Before 9:30 AM,-56.64,-7.87,percentage points
+CCE,NUR,Outside 9-to-5,-57.86,-5.99,percentage points
+CCE,TDM,Before 9:30 AM,0.77,43.24,percentage points
+AAE,HTM,Before 9:30 AM,-53.49,-1.8,percentage points
+AAE,NUR,Average Start Time,86.09,263.13,minutes
+AAE,NUR,Before 9:30 AM,-63.06,-27.23,percentage points
+AAE,NUR,Outside 9-to-5,-55.18,-14.49,percentage points
+AAE,SCLA,After 5 PM,0.23,33.92,percentage points
+AAE,AFT,Before 9:30 AM,-84.28,-0.06,percentage points
+CHE,NUR,Average Start Time,58.06,257.14,minutes
+CHE,NUR,Before 9:30 AM,-64.21,-23.44,percentage points
+CHE,NUR,Outside 9-to-5,-66.61,-22.24,percentage points
+CHE,AD,Outside 9-to-5,-54.78,-5.41,percentage points
+CHE,CHM,Outside 9-to-5,-45.03,-4.72,percentage points
+CHE,ASTR,After 5 PM,-81.8,-0.26,percentage points
+ECE,NUR,Average Start Time,53.26,217.1,minutes
+ECE,NUR,Before 9:30 AM,-52.88,-16.97,percentage points
+ECE,NUR,Outside 9-to-5,-47.13,-10.03,percentage points
+ECE,SCLA,Outside 9-to-5,1.81,36.8,percentage points
+ECE,CS,Before 9:30 AM,4.56,28.76,percentage points
+ECE,TDM,Before 9:30 AM,4.94,31.23,percentage points
+ECE,TDM,Outside 9-to-5,2.28,37.57,percentage points
+IE,NUR,Average Start Time,60.57,278.91,minutes
+IE,NUR,Before 9:30 AM,-60.01,-15.43,percentage points
+IE,NUR,Outside 9-to-5,-58.67,-9.56,percentage points
+MSE,NUR,Average Start Time,12.05,247.92,minutes
+MSE,NUR,Before 9:30 AM,-58.93,-5.51,percentage points
+MSE,NUR,Outside 9-to-5,-65.43,-10.23,percentage points
+ME,NUR,Average Start Time,57.23,217.07,minutes
+ME,NUR,Before 9:30 AM,-57.17,-22.84,percentage points
+ME,NUR,Outside 9-to-5,-54.54,-19.02,percentage points
+ME,AD,After 5 PM,-39.17,-1.13,percentage points
+ME,AD,Outside 9-to-5,-42.94,-1.7,percentage points
+ME,CHM,Outside 9-to-5,-32.84,-2.71,percentage points
+ME,CS,Before 9:30 AM,0.66,22.43,percentage points
+ME,ASTR,After 5 PM,-78.12,-0.57,percentage points
+ME,TDM,Before 9:30 AM,0.83,24.88,percentage points
+NUCL,NUR,Average Start Time,19.69,289.35,minutes
+NUCL,NUR,Before 9:30 AM,-61.4,-7.3,percentage points
+NUCL,NUR,Outside 9-to-5,-61.57,-1.74,percentage points
+BME,NUR,Average Start Time,12.97,243.16,minutes
+BME,NUR,Before 9:30 AM,-56.28,-3.27,percentage points
+BME,NUR,Outside 9-to-5,-60.01,-4.52,percentage points
+BME,CS,Before 9:30 AM,0.01,45.67,percentage points
+BME,TDM,Before 9:30 AM,0.99,48.27,percentage points
+HK,NUR,Average Start Time,22.0,223.98,minutes
+HK,NUR,Before 9:30 AM,-60.92,-16.9,percentage points
+HK,NUR,Outside 9-to-5,-65.54,-19.27,percentage points
+HK,AD,Outside 9-to-5,-53.57,-2.48,percentage points
+HK,CHM,Outside 9-to-5,-44.04,-1.64,percentage points
+HK,ASTR,After 5 PM,-84.19,-2.71,percentage points
+PES,NUR,Outside 9-to-5,-62.74,-2.94,percentage points
+PES,TDM,Before 9:30 AM,0.42,53.13,percentage points
+HDFS,NUR,Outside 9-to-5,-57.04,-0.27,percentage points
+HDFS,CS,Before 9:30 AM,2.35,50.21,percentage points
+HDFS,TDM,Before 9:30 AM,3.51,52.81,percentage points
+NUTR,NUR,Before 9:30 AM,-58.77,-1.75,percentage points
+NUTR,NUR,Outside 9-to-5,-66.17,-7.76,percentage points
+PSY,NUR,Average Start Time,4.36,209.97,minutes
+PSY,NUR,Before 9:30 AM,-53.75,-3.74,percentage points
+PSY,NUR,Outside 9-to-5,-61.28,-10.85,percentage points
+PSY,AD,After 5 PM,-48.36,-1.95,percentage points
+PSY,CS,Before 9:30 AM,2.48,44.79,percentage points
+PSY,ASTR,After 5 PM,-87.61,-6.13,percentage points
+PSY,TDM,Before 9:30 AM,3.49,47.37,percentage points
+SLHS,NUR,Average Start Time,31.19,281.18,minutes
+SLHS,NUR,Before 9:30 AM,-61.59,-5.94,percentage points
+SLHS,NUR,Outside 9-to-5,-65.76,-6.3,percentage points
+HSCI,NUR,Before 9:30 AM,-62.12,-3.11,percentage points
+HSCI,NUR,Outside 9-to-5,-68.74,-7.48,percentage points
+CSR,NUR,Outside 9-to-5,-68.33,-5.71,percentage points
+HTM,SCLA,Outside 9-to-5,2.34,56.1,percentage points
+HTM,THTR,Before 9:30 AM,6.92,61.63,percentage points
+HTM,CS,Before 9:30 AM,9.58,57.37,percentage points
+HTM,PHYS,Before 9:30 AM,0.07,49.84,percentage points
+HTM,TDM,Before 9:30 AM,10.95,59.96,percentage points
+HTM,TDM,Outside 9-to-5,2.91,56.88,percentage points
+HTM,CGT,Before 9:30 AM,1.12,55.01,percentage points
+NUR,COM,Average Start Time,-229.76,-54.98,minutes
+NUR,COM,Before 9:30 AM,19.33,56.62,percentage points
+NUR,COM,Outside 9-to-5,18.51,57.21,percentage points
+NUR,BAND,Average Start Time,-476.9,-18.22,minutes
+NUR,BAND,Before 9:30 AM,2.38,65.22,percentage points
+NUR,GS,Outside 9-to-5,7.84,77.99,percentage points
+NUR,SCLA,Average Start Time,-220.94,-58.7,minutes
+NUR,SCLA,Before 9:30 AM,24.83,60.44,percentage points
+NUR,SCLA,Outside 9-to-5,29.88,65.85,percentage points
+NUR,ANTH,Average Start Time,-300.84,-73.97,minutes
+NUR,ANTH,Before 9:30 AM,15.29,63.59,percentage points
+NUR,ANTH,Outside 9-to-5,15.87,67.72,percentage points
+NUR,ENGL,Average Start Time,-271.25,-81.11,minutes
+NUR,ENGL,Before 9:30 AM,21.1,61.09,percentage points
+NUR,ENGL,Outside 9-to-5,16.26,60.07,percentage points
+NUR,HIST,Average Start Time,-323.49,-78.69,minutes
+NUR,HIST,Before 9:30 AM,14.97,64.96,percentage points
+NUR,HIST,Outside 9-to-5,4.0,62.02,percentage points
+NUR,PHIL,Average Start Time,-244.83,-30.56,minutes
+NUR,PHIL,Before 9:30 AM,10.34,57.01,percentage points
+NUR,PHIL,Outside 9-to-5,8.51,58.19,percentage points
+NUR,POL,Average Start Time,-242.82,-14.02,minutes
+NUR,POL,Before 9:30 AM,9.9,61.16,percentage points
+NUR,POL,Outside 9-to-5,12.41,66.41,percentage points
+NUR,SOC,Average Start Time,-281.65,-37.07,minutes
+NUR,SOC,Before 9:30 AM,9.59,61.09,percentage points
+NUR,SOC,Outside 9-to-5,13.08,66.93,percentage points
+NUR,AD,Average Start Time,-252.45,-66.7,minutes
+NUR,AD,Before 9:30 AM,14.81,55.16,percentage points
+NUR,AD,After 5 PM,-41.74,-2.41,percentage points
+NUR,DANC,Average Start Time,-294.02,-11.56,minutes
+NUR,DANC,Before 9:30 AM,4.62,66.78,percentage points
+NUR,DANC,Outside 9-to-5,2.68,69.34,percentage points
+NUR,MUS,Average Start Time,-296.76,-25.19,minutes
+NUR,MUS,Before 9:30 AM,1.83,60.18,percentage points
+NUR,MUS,Outside 9-to-5,3.12,64.84,percentage points
+NUR,THTR,Average Start Time,-250.32,-52.63,minutes
+NUR,THTR,Before 9:30 AM,31.81,70.66,percentage points
+NUR,THTR,Outside 9-to-5,19.16,66.13,percentage points
+NUR,CHNS,Before 9:30 AM,0.24,70.66,percentage points
+NUR,CHNS,Outside 9-to-5,4.11,74.25,percentage points
+NUR,GER,Average Start Time,-309.87,-5.41,minutes
+NUR,GER,Before 9:30 AM,11.94,68.93,percentage points
+NUR,GER,Outside 9-to-5,18.22,75.43,percentage points
+NUR,ITAL,Outside 9-to-5,11.73,81.07,percentage points
+NUR,KOR,Outside 9-to-5,4.01,77.57,percentage points
+NUR,RUSS,Before 9:30 AM,0.24,70.66,percentage points
+NUR,RUSS,Outside 9-to-5,6.78,75.98,percentage points
+NUR,SPAN,Average Start Time,-232.26,-31.12,minutes
+NUR,SPAN,Before 9:30 AM,13.67,58.16,percentage points
+NUR,SPAN,Outside 9-to-5,17.71,63.62,percentage points
+NUR,PHRM,Average Start Time,-252.0,-26.94,minutes
+NUR,PHRM,Before 9:30 AM,10.05,59.49,percentage points
+NUR,PHRM,Outside 9-to-5,2.53,57.24,percentage points
+NUR,BIOL,Average Start Time,-205.71,-42.51,minutes
+NUR,BIOL,Before 9:30 AM,20.82,55.51,percentage points
+NUR,BIOL,Outside 9-to-5,13.57,49.64,percentage points
+NUR,CHM,Average Start Time,-215.88,-59.27,minutes
+NUR,CHM,Before 9:30 AM,16.77,49.95,percentage points
+NUR,CHM,Outside 9-to-5,2.11,35.48,percentage points
+NUR,CS,Average Start Time,-249.26,-94.53,minutes
+NUR,CS,Before 9:30 AM,35.73,66.54,percentage points
+NUR,CS,Outside 9-to-5,25.77,58.97,percentage points
+NUR,EAPS,Average Start Time,-242.93,-41.36,minutes
+NUR,EAPS,Before 9:30 AM,11.52,58.08,percentage points
+NUR,EAPS,Outside 9-to-5,5.85,56.54,percentage points
+NUR,MA,Average Start Time,-227.25,-72.41,minutes
+NUR,MA,Before 9:30 AM,24.01,56.64,percentage points
+NUR,MA,Outside 9-to-5,25.0,57.58,percentage points
+NUR,ASTR,After 5 PM,-80.69,-2.61,percentage points
+NUR,PHYS,Average Start Time,-231.06,-67.78,minutes
+NUR,PHYS,Before 9:30 AM,25.88,59.48,percentage points
+NUR,PHYS,Outside 9-to-5,16.38,52.05,percentage points
+NUR,STAT,Average Start Time,-238.11,-67.27,minutes
+NUR,STAT,Before 9:30 AM,23.56,59.94,percentage points
+NUR,STAT,Outside 9-to-5,25.86,63.35,percentage points
+NUR,CPB,Outside 9-to-5,2.08,68.04,percentage points
+NUR,HONR,Average Start Time,-289.2,-83.18,minutes
+NUR,HONR,Before 9:30 AM,23.41,65.7,percentage points
+NUR,HONR,Outside 9-to-5,20.76,67.56,percentage points
+NUR,ILS,Average Start Time,-325.42,-14.99,minutes
+NUR,ILS,Outside 9-to-5,9.14,81.07,percentage points
+NUR,ECON,Average Start Time,-293.25,-44.85,minutes
+NUR,ECON,Before 9:30 AM,8.19,56.99,percentage points
+NUR,ECON,Outside 9-to-5,3.96,56.47,percentage points
+NUR,FIN,Average Start Time,-357.93,-16.87,minutes
+NUR,OBHR,Average Start Time,-301.0,-11.8,minutes
+NUR,OBHR,Before 9:30 AM,8.06,63.09,percentage points
+NUR,OBHR,Outside 9-to-5,6.53,66.24,percentage points
+NUR,TDM,Average Start Time,-248.06,-85.37,minutes
+NUR,TDM,Before 9:30 AM,36.78,69.03,percentage points
+NUR,TDM,Outside 9-to-5,30.38,66.62,percentage points
+NUR,TLI,Outside 9-to-5,0.42,67.08,percentage points
+NUR,TECH,Before 9:30 AM,4.06,63.67,percentage points
+NUR,TECH,Outside 9-to-5,7.67,69.8,percentage points
+NUR,CGT,Average Start Time,-283.97,-86.49,minutes
+NUR,CGT,Before 9:30 AM,26.19,64.51,percentage points
+NUR,CGT,Outside 9-to-5,14.74,59.21,percentage points
+NUR,CNIT,Average Start Time,-218.99,-49.74,minutes
+NUR,CNIT,Before 9:30 AM,22.82,58.09,percentage points
+NUR,CNIT,Outside 9-to-5,13.76,51.4,percentage points
+NUR,AT,Average Start Time,-212.76,-45.21,minutes
+NUR,AT,Before 9:30 AM,19.85,55.63,percentage points
+NUR,AT,Outside 9-to-5,12.13,49.7,percentage points
+NUR,CM,Average Start Time,-255.33,-31.56,minutes
+NUR,CM,Before 9:30 AM,13.98,59.1,percentage points
+NUR,CM,Outside 9-to-5,5.87,55.79,percentage points
+NUR,ECET,Average Start Time,-210.09,-21.86,minutes
+NUR,ECET,Before 9:30 AM,20.45,60.39,percentage points
+NUR,ECET,Outside 9-to-5,15.9,59.39,percentage points
+NUR,MET,Average Start Time,-206.2,-23.57,minutes
+NUR,MET,Before 9:30 AM,22.68,61.96,percentage points
+NUR,MET,Outside 9-to-5,21.32,63.58,percentage points
+NUR,MFET,Average Start Time,-241.21,-29.65,minutes
+NUR,MFET,Before 9:30 AM,19.8,62.99,percentage points
+NUR,MFET,Outside 9-to-5,11.21,60.37,percentage points
+NUR,CE,Average Start Time,-267.5,-47.18,minutes
+NUR,CE,Before 9:30 AM,13.95,61.79,percentage points
+NUR,CE,Outside 9-to-5,6.53,60.26,percentage points
+NUR,MGMT,Average Start Time,-245.88,-71.08,minutes
+NUR,MGMT,Before 9:30 AM,20.83,57.59,percentage points
+NUR,MGMT,Outside 9-to-5,15.76,54.71,percentage points
+COM,AD,After 5 PM,-42.07,-2.29,percentage points
+COM,AD,Outside 9-to-5,-45.41,-1.35,percentage points
+COM,CHM,Outside 9-to-5,-35.62,-1.76,percentage points
+COM,CS,Before 9:30 AM,0.84,27.03,percentage points
+COM,ASTR,After 5 PM,-81.01,-2.73,percentage points
+COM,TDM,Before 9:30 AM,1.22,29.53,percentage points
+BAND,SCLA,After 5 PM,0.62,69.16,percentage points
+SCLA,AD,After 5 PM,-47.13,-9.4,percentage points
+SCLA,AD,Outside 9-to-5,-54.42,-12.66,percentage points
+SCLA,CHM,After 5 PM,-30.62,-5.81,percentage points
+SCLA,CHM,Outside 9-to-5,-44.05,-13.29,percentage points
+SCLA,ASTR,After 5 PM,-86.39,-9.12,percentage points
+PHIL,TDM,Before 9:30 AM,0.48,40.53,percentage points
+AD,THTR,Outside 9-to-5,2.4,54.16,percentage points
+AD,GER,Outside 9-to-5,1.89,64.27,percentage points
+AD,SPAN,After 5 PM,1.53,46.27,percentage points
+AD,SPAN,Outside 9-to-5,0.89,51.57,percentage points
+AD,CS,Before 9:30 AM,1.91,32.28,percentage points
+AD,CS,Outside 9-to-5,8.33,47.61,percentage points
+AD,MA,After 5 PM,7.37,43.03,percentage points
+AD,MA,Outside 9-to-5,7.52,46.27,percentage points
+AD,STAT,After 5 PM,5.53,44.66,percentage points
+AD,STAT,Outside 9-to-5,8.69,51.75,percentage points
+AD,HONR,Outside 9-to-5,4.02,55.68,percentage points
+AD,TDM,Before 9:30 AM,2.5,34.81,percentage points
+AD,TDM,Outside 9-to-5,13.18,55.19,percentage points
+AD,MET,Outside 9-to-5,4.36,51.72,percentage points
+THTR,CHM,Before 9:30 AM,-31.65,-1.21,percentage points
+THTR,CHM,Outside 9-to-5,-44.63,-1.46,percentage points
+THTR,AFT,Before 9:30 AM,-92.59,-6.82,percentage points
+SPAN,CHM,Outside 9-to-5,-42.15,-0.16,percentage points
+SPAN,ASTR,After 5 PM,-85.35,-4.74,percentage points
+PHSC,TDM,Before 9:30 AM,0.79,71.73,percentage points
+BIOL,CS,Before 9:30 AM,2.2,24.54,percentage points
+BIOL,TDM,Before 9:30 AM,2.43,26.99,percentage points
+CHM,CS,Before 9:30 AM,7.85,27.66,percentage points
+CHM,CS,Outside 9-to-5,9.74,37.12,percentage points
+CHM,MA,After 5 PM,4.64,26.62,percentage points
+CHM,MA,Outside 9-to-5,9.1,35.71,percentage points
+CHM,PHYS,Outside 9-to-5,0.07,30.37,percentage points
+CHM,STAT,After 5 PM,1.63,28.46,percentage points
+CHM,STAT,Outside 9-to-5,9.13,41.64,percentage points
+CHM,HONR,Outside 9-to-5,3.03,46.01,percentage points
+CHM,TDM,Before 9:30 AM,8.03,30.06,percentage points
+CHM,TDM,Outside 9-to-5,13.73,44.82,percentage points
+CHM,MET,Outside 9-to-5,4.07,42.02,percentage points
+CS,MA,Before 9:30 AM,-20.33,-1.42,percentage points
+CS,VM,Before 9:30 AM,-73.21,-0.12,percentage points
+CS,AFT,Before 9:30 AM,-88.29,-6.11,percentage points
+CS,AT,Before 9:30 AM,-25.95,-1.94,percentage points
+MA,ASTR,After 5 PM,-82.25,-5.76,percentage points
+MA,TDM,Before 9:30 AM,1.45,22.71,percentage points
+ASTR,STAT,After 5 PM,5.83,83.76,percentage points
+ASTR,MET,After 5 PM,1.11,81.28,percentage points
+VM,TDM,Before 9:30 AM,1.75,75.84,percentage points
+VCS,TDM,Before 9:30 AM,0.31,52.67,percentage points
+ECON,TDM,Before 9:30 AM,0.44,42.95,percentage points
+STRT,TDM,Before 9:30 AM,0.96,66.51,percentage points
+TDM,ENTR,Before 9:30 AM,-65.57,-0.15,percentage points
+TDM,AFT,Before 9:30 AM,-90.91,-8.17,percentage points
+TDM,AT,Before 9:30 AM,-28.42,-2.25,percentage points
+TDM,ENGT,Before 9:30 AM,-59.55,-0.02,percentage points
+TDM,MGMT,Before 9:30 AM,-27.91,-0.29,percentage points
+CGT,AFT,Before 9:30 AM,-85.81,-0.42,percentage points

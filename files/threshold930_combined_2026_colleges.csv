@@ -1,0 +1,13 @@
+﻿Name,Number_of_Sections,Average_Start_Time_Minutes,Morning_Outside9to5_Proportion,Evening_Outside9to5_Proportion,Overall_Outside9to5_Proportion
+Agriculture,885,737.88,0.11412,0.15706,0.27119
+Education,427,778.54,0.20843,0.29742,0.50117
+Engineering,2858,750.85,0.13086,0.18859,0.3191
+Health and Human Sciences,1263,671.88,0.31196,0.1053,0.41647
+Liberal Arts,2650,741.12,0.12113,0.14151,0.26189
+Pharmacy,180,726.67,0.16667,0.21111,0.37778
+Science,4011,738.26,0.1466,0.19073,0.33707
+Veterinary Medicine,188,695.67,0.18617,0.16489,0.32447
+Libraries,26,759.23,0.0,0.0,0.0
+Business,889,751.05,0.15073,0.15636,0.30709
+Provost,410,756.15,0.043902,0.16098,0.20488
+Polytechnic,2069,721.62,0.13775,0.17448,0.31223

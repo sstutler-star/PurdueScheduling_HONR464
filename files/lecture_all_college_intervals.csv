@@ -1,265 +1,265 @@
 ﻿college,other,metric,estimate,lower,upper,significant
 Agriculture,Education,start,-70.16,-112.95,-27.37,True
-Agriculture,Education,before9,0.0459,-0.0426,0.1231,False
-Agriculture,Education,after5,-0.1803,-0.2815,-0.0866,True
-Agriculture,Education,outside,-0.1344,-0.2496,-0.0207,True
+Agriculture,Education,before9,0.029588,-0.046900000000000004,0.0946,False
+Agriculture,Education,after5,-0.180253,-0.2815,-0.0866,True
+Agriculture,Education,outside,-0.15066,-0.2619,-0.0426,True
 Agriculture,Engineering,start,-28.59,-56.23,-0.96,True
-Agriculture,Engineering,before9,0.0121,-0.0455,0.0813,False
-Agriculture,Engineering,after5,-0.0559,-0.1039,0.0043,False
-Agriculture,Engineering,outside,-0.0439,-0.1159,0.0373,False
+Agriculture,Engineering,before9,0.018655,-0.027200000000000002,0.078,False
+Agriculture,Engineering,after5,-0.055933,-0.1039,0.0043,False
+Agriculture,Engineering,outside,-0.03728,-0.10220000000000001,0.0381,False
 Agriculture,Health and Human Sciences,start,-4.82,-34.93,25.29,False
-Agriculture,Health and Human Sciences,before9,-0.0075,-0.0762,0.0672,False
-Agriculture,Health and Human Sciences,after5,-0.0138,-0.0685,0.0474,False
-Agriculture,Health and Human Sciences,outside,-0.0213,-0.1035,0.0657,False
+Agriculture,Health and Human Sciences,before9,0.002731,-0.0536,0.0659,False
+Agriculture,Health and Human Sciences,after5,-0.013807,-0.06849999999999999,0.047400000000000005,False
+Agriculture,Health and Human Sciences,outside,-0.01107,-0.08539999999999999,0.0687,False
 Agriculture,Liberal Arts,start,-18.33,-44.26,7.59,False
-Agriculture,Liberal Arts,before9,0.0216,-0.0316,0.0886,False
-Agriculture,Liberal Arts,after5,-0.0364,-0.0783,0.0208,False
-Agriculture,Liberal Arts,outside,-0.0148,-0.0815,0.0625,False
+Agriculture,Liberal Arts,before9,0.03458,-0.0067,0.09210000000000002,False
+Agriculture,Liberal Arts,after5,-0.036413,-0.0783,0.0208,False
+Agriculture,Liberal Arts,outside,-0.00184,-0.061,0.0698,False
 Agriculture,Pharmacy,start,10.72,-50.26,71.7,False
-Agriculture,Pharmacy,before9,-0.0396,-0.2027,0.0734,False
-Agriculture,Pharmacy,after5,-0.022,-0.1676,0.0604,False
-Agriculture,Pharmacy,outside,-0.0616,-0.2359,0.0793,False
+Agriculture,Pharmacy,before9,-0.069069,-0.22690000000000002,0.0341,False
+Agriculture,Pharmacy,after5,-0.022003,-0.16760000000000003,0.0604,False
+Agriculture,Pharmacy,outside,-0.09107,-0.26239999999999997,0.0433,False
 Agriculture,Science,start,-16.96,-44.25,10.33,False
-Agriculture,Science,before9,0.0124,-0.0451,0.0814,False
-Agriculture,Science,after5,-0.0208,-0.0661,0.0375,False
-Agriculture,Science,outside,-0.0076,-0.0785,0.0723,False
+Agriculture,Science,before9,0.00704,-0.039599999999999996,0.067,False
+Agriculture,Science,after5,-0.020755,-0.0661,0.0375,False
+Agriculture,Science,outside,-0.01371,-0.0776,0.060700000000000004,False
 Agriculture,Veterinary Medicine,start,55.65,6.86,104.44,True
-Agriculture,Veterinary Medicine,before9,-0.0613,-0.2161,0.0535,False
-Agriculture,Veterinary Medicine,after5,0.079,-0.0144,0.1319,False
-Agriculture,Veterinary Medicine,outside,0.0177,-0.141,0.1371,False
+Agriculture,Veterinary Medicine,before9,-0.110989,-0.2631,-0.0002,True
+Agriculture,Veterinary Medicine,after5,0.079007,-0.0144,0.1319,False
+Agriculture,Veterinary Medicine,outside,-0.03198,-0.1883,0.0848,False
 Agriculture,Libraries,start,-45.46,-130.06,39.13,False
-Agriculture,Libraries,before9,0.1422,-0.212,0.2054,False
-Agriculture,Libraries,after5,0.079,-0.2738,0.1319,False
-Agriculture,Libraries,outside,0.2212,-0.1347,0.2923,False
+Agriculture,Libraries,before9,0.092551,-0.2605,0.1481,False
+Agriculture,Libraries,after5,0.079007,-0.2738,0.1319,False
+Agriculture,Libraries,outside,0.17156,-0.1833,0.23809999999999998,False
 Agriculture,Business,start,-29.37,-59.45,0.7,False
-Agriculture,Business,before9,-0.0133,-0.0778,0.0597,False
-Agriculture,Business,after5,-0.0753,-0.1311,-0.0111,True
-Agriculture,Business,outside,-0.0886,-0.1679,-0.0019,True
+Agriculture,Business,before9,-0.011099,-0.0646,0.0518,False
+Agriculture,Business,after5,-0.075293,-0.1311,-0.0111,True
+Agriculture,Business,outside,-0.08639,-0.1593,-0.0054,True
 Agriculture,Provost,start,-32.52,-71.52,6.47,False
-Agriculture,Provost,before9,0.0663,-0.0234,0.1409,False
-Agriculture,Provost,after5,-0.0307,-0.1214,0.0424,False
-Agriculture,Provost,outside,0.0355,-0.0766,0.1344,False
+Agriculture,Provost,before9,0.058796,-0.013999999999999999,0.11869999999999999,False
+Agriculture,Provost,after5,-0.030693,-0.12140000000000001,0.0424,False
+Agriculture,Provost,outside,0.0281,-0.0757,0.1173,False
 Agriculture,Polytechnic,start,-9.33,-41.5,22.84,False
-Agriculture,Polytechnic,before9,-0.0234,-0.0941,0.0527,False
-Agriculture,Polytechnic,after5,-0.051,-0.1106,0.0138,False
-Agriculture,Polytechnic,outside,-0.0745,-0.1593,0.0156,False
+Agriculture,Polytechnic,before9,-0.040579,-0.1023,0.026699999999999998,False
+Agriculture,Polytechnic,after5,-0.051023,-0.1106,0.0138,False
+Agriculture,Polytechnic,outside,-0.0916,-0.1707,-0.0066,True
 Education,Engineering,start,41.57,2.61,80.53,True
-Education,Engineering,before9,-0.0338,-0.0901,0.0468,False
-Education,Engineering,after5,0.1244,0.0395,0.2244,True
-Education,Engineering,outside,0.0905,-0.008,0.1976,False
+Education,Engineering,before9,-0.010933,-0.054900000000000004,0.059699999999999996,False
+Education,Engineering,after5,0.12432,0.0395,0.22440000000000002,True
+Education,Engineering,outside,0.11338,0.0192,0.2184,True
 Education,Health and Human Sciences,start,65.34,24.61,106.07,True
-Education,Health and Human Sciences,before9,-0.0534,-0.121,0.032,False
-Education,Health and Human Sciences,after5,0.1665,0.0777,0.2671,True
-Education,Health and Human Sciences,outside,0.1131,0.0069,0.2247,True
+Education,Health and Human Sciences,before9,-0.026857,-0.0817,0.047,False
+Education,Health and Human Sciences,after5,0.166446,0.07769999999999999,0.2671,True
+Education,Health and Human Sciences,outside,0.13959,0.0387,0.24780000000000002,True
 Education,Liberal Arts,start,51.82,14.05,89.6,True
-Education,Liberal Arts,before9,-0.0243,-0.076,0.0545,False
-Education,Liberal Arts,after5,0.1439,0.0623,0.2421,True
-Education,Liberal Arts,outside,0.1196,0.0249,0.2237,True
+Education,Liberal Arts,before9,0.004992,-0.034300000000000004,0.0741,False
+Education,Liberal Arts,after5,0.14384,0.0623,0.2421,True
+Education,Liberal Arts,outside,0.14882,0.058499999999999996,0.25120000000000003,True
 Education,Pharmacy,start,80.88,14.3,147.46,True
-Education,Pharmacy,before9,-0.0855,-0.2482,0.0349,False
-Education,Pharmacy,after5,0.1583,-0.0032,0.273,False
-Education,Pharmacy,outside,0.0728,-0.1141,0.23,False
+Education,Pharmacy,before9,-0.098657,-0.256,0.011399999999999999,False
+Education,Pharmacy,after5,0.15825,-0.0032,0.273,False
+Education,Pharmacy,outside,0.05959,-0.12480000000000001,0.2126,False
 Education,Science,start,53.2,14.48,91.92,True
-Education,Science,before9,-0.0335,-0.0897,0.047,False
-Education,Science,after5,0.1595,0.0762,0.2584,True
-Education,Science,outside,0.1268,0.0291,0.2329,True
+Education,Science,before9,-0.022548,-0.0674,0.048499999999999995,False
+Education,Science,after5,0.159498,0.0762,0.2584,True
+Education,Science,outside,0.13695,0.0434,0.2413,True
 Education,Veterinary Medicine,start,125.81,70.07,181.56,True
-Education,Veterinary Medicine,before9,-0.1072,-0.2615,0.0149,False
-Education,Veterinary Medicine,after5,0.2593,0.1426,0.3551,True
-Education,Veterinary Medicine,outside,0.1521,-0.0203,0.2904,False
+Education,Veterinary Medicine,before9,-0.140577,-0.2921,-0.0233,True
+Education,Veterinary Medicine,after5,0.25926,0.1426,0.35509999999999997,True
+Education,Veterinary Medicine,outside,0.11868,-0.0519,0.2564,False
 Education,Libraries,start,24.7,-62.69,112.09,False
-Education,Libraries,before9,0.0963,-0.2577,0.1718,False
-Education,Libraries,after5,0.2593,-0.1004,0.3551,False
-Education,Libraries,outside,0.3556,-0.0067,0.4553,False
+Education,Libraries,before9,0.062963,-0.2899,0.1304,False
+Education,Libraries,after5,0.25926,-0.10039999999999999,0.35509999999999997,False
+Education,Libraries,outside,0.32222,-0.0392,0.4211,False
 Education,Business,start,40.78,0.08,81.49,True
-Education,Business,before9,-0.0592,-0.1226,0.0247,False
-Education,Business,after5,0.105,0.0155,0.2075,True
-Education,Business,outside,0.0458,-0.0581,0.1571,False
+Education,Business,before9,-0.040687,-0.09269999999999999,0.0329,False
+Education,Business,after5,0.10496,0.0155,0.2075,True
+Education,Business,outside,0.06427,-0.0356,0.1734,False
 Education,Provost,start,37.64,-9.95,85.22,False
-Education,Provost,before9,0.0204,-0.0685,0.1058,False
-Education,Provost,after5,0.1496,0.035,0.2579,True
-Education,Provost,outside,0.1699,0.0392,0.291,True
+Education,Provost,before9,0.029208,-0.0425,0.1003,False
+Education,Provost,after5,0.14956,0.035,0.2579,True
+Education,Provost,outside,0.17876,0.0545,0.29410000000000003,True
 Education,Polytechnic,start,60.83,18.57,103.09,True
-Education,Polytechnic,before9,-0.0693,-0.1389,0.0174,False
-Education,Polytechnic,after5,0.1293,0.0374,0.2321,True
-Education,Polytechnic,outside,0.0599,-0.0483,0.1739,False
+Education,Polytechnic,before9,-0.070167,-0.1305,0.0072,False
+Education,Polytechnic,after5,0.12923,0.0374,0.2321,True
+Education,Polytechnic,outside,0.05906,-0.0454,0.1711,False
 Engineering,Health and Human Sciences,start,23.77,-0.47,48.01,False
-Engineering,Health and Human Sciences,before9,-0.0196,-0.0779,0.0332,False
-Engineering,Health and Human Sciences,after5,0.0421,-0.0102,0.0887,False
-Engineering,Health and Human Sciences,outside,0.0226,-0.0477,0.0887,False
+Engineering,Health and Human Sciences,before9,-0.015924,-0.0639,0.0254,False
+Engineering,Health and Human Sciences,after5,0.042126,-0.0102,0.08869999999999999,False
+Engineering,Health and Human Sciences,outside,0.02621,-0.0384,0.0859,False
 Engineering,Liberal Arts,start,10.26,-8.48,28.99,False
-Engineering,Liberal Arts,before9,0.0095,-0.0292,0.0507,False
-Engineering,Liberal Arts,after5,0.0195,-0.0193,0.0608,False
-Engineering,Liberal Arts,outside,0.0291,-0.0222,0.0817,False
+Engineering,Liberal Arts,before9,0.015925,-0.0131,0.048,False
+Engineering,Liberal Arts,after5,0.01952,-0.019299999999999998,0.0608,False
+Engineering,Liberal Arts,outside,0.03544,-0.011000000000000001,0.0837,False
 Engineering,Pharmacy,start,39.31,-19.16,97.78,False
-Engineering,Pharmacy,before9,-0.0517,-0.2107,0.0482,False
-Engineering,Pharmacy,after5,0.0339,-0.1108,0.1061,False
-Engineering,Pharmacy,outside,-0.0177,-0.1868,0.1112,False
+Engineering,Pharmacy,before9,-0.087724,-0.24280000000000002,0.0037,False
+Engineering,Pharmacy,after5,0.03393,-0.1108,0.1061,False
+Engineering,Pharmacy,outside,-0.05379,-0.2211,0.0697,False
 Engineering,Science,start,11.63,-8.97,32.23,False
-Engineering,Science,before9,0.0003,-0.0441,0.0448,False
-Engineering,Science,after5,0.0351,-0.0073,0.0779,False
-Engineering,Science,outside,0.0363,-0.0204,0.0927,False
+Engineering,Science,before9,-0.011615,-0.0478,0.0245,False
+Engineering,Science,after5,0.035178,-0.0073,0.0779,False
+Engineering,Science,outside,0.02357,-0.0288,0.0758,False
 Engineering,Veterinary Medicine,start,84.24,38.69,129.8,True
-Engineering,Veterinary Medicine,before9,-0.0734,-0.2239,0.0286,False
-Engineering,Veterinary Medicine,after5,0.1349,0.0429,0.17,True
-Engineering,Veterinary Medicine,outside,0.0616,-0.0913,0.1667,False
+Engineering,Veterinary Medicine,before9,-0.129644,-0.2789,-0.0296,True
+Engineering,Veterinary Medicine,after5,0.13494,0.0429,0.17,True
+Engineering,Veterinary Medicine,outside,0.0053,-0.1466,0.1094,False
 Engineering,Libraries,start,-16.87,-100.46,66.72,False
-Engineering,Libraries,before9,0.1301,-0.2222,0.1647,False
-Engineering,Libraries,after5,0.1349,-0.2175,0.17,False
-Engineering,Libraries,outside,0.2651,-0.0883,0.3081,False
+Engineering,Libraries,before9,0.073896,-0.278,0.10210000000000001,False
+Engineering,Libraries,after5,0.13494,-0.2175,0.17,False
+Engineering,Libraries,outside,0.20884,-0.1442,0.2492,False
 Engineering,Business,start,-0.78,-24.97,23.41,False
-Engineering,Business,before9,-0.0254,-0.0787,0.025,False
-Engineering,Business,after5,-0.0194,-0.0729,0.0312,False
-Engineering,Business,outside,-0.0447,-0.1116,0.0209,False
+Engineering,Business,before9,-0.029754,-0.0745,0.0111,False
+Engineering,Business,after5,-0.01936,-0.0729,0.031200000000000002,False
+Engineering,Business,outside,-0.04911,-0.11220000000000001,0.012199999999999999,False
 Engineering,Provost,start,-3.93,-38.67,30.81,False
-Engineering,Provost,before9,0.0542,-0.0278,0.107,False
-Engineering,Provost,after5,0.0252,-0.0641,0.0867,False
-Engineering,Provost,outside,0.0794,-0.0244,0.1605,False
+Engineering,Provost,before9,0.040141,-0.0265,0.07629999999999999,False
+Engineering,Provost,after5,0.02524,-0.0641,0.0867,False
+Engineering,Provost,outside,0.06538,-0.0318,0.1371,False
 Engineering,Polytechnic,start,19.26,-7.51,46.03,False
-Engineering,Polytechnic,before9,-0.0355,-0.096,0.0193,False
-Engineering,Polytechnic,after5,0.0049,-0.0525,0.0562,False
-Engineering,Polytechnic,outside,-0.0306,-0.1039,0.0395,False
+Engineering,Polytechnic,before9,-0.059234,-0.11349999999999999,-0.011899999999999999,True
+Engineering,Polytechnic,after5,0.00491,-0.0525,0.0562,False
+Engineering,Polytechnic,outside,-0.05432,-0.1244,0.0121,False
 Health and Human Sciences,Liberal Arts,start,-13.52,-35.78,8.75,False
-Health and Human Sciences,Liberal Arts,before9,0.0291,-0.0187,0.0848,False
-Health and Human Sciences,Liberal Arts,after5,-0.0226,-0.0629,0.0262,False
-Health and Human Sciences,Liberal Arts,outside,0.0065,-0.0537,0.0723,False
+Health and Human Sciences,Liberal Arts,before9,0.031849,-0.0044,0.07769999999999999,False
+Health and Human Sciences,Liberal Arts,after5,-0.022606,-0.0629,0.0262,False
+Health and Human Sciences,Liberal Arts,outside,0.00923,-0.0441,0.0695,False
 Health and Human Sciences,Pharmacy,start,15.54,-44.07,75.15,False
-Health and Human Sciences,Pharmacy,before9,-0.0321,-0.1936,0.0746,False
-Health and Human Sciences,Pharmacy,after5,-0.0082,-0.1533,0.0686,False
-Health and Human Sciences,Pharmacy,outside,-0.0403,-0.2122,0.0946,False
+Health and Human Sciences,Pharmacy,before9,-0.0718,-0.2284,0.0253,False
+Health and Human Sciences,Pharmacy,after5,-0.008196,-0.1533,0.06860000000000001,False
+Health and Human Sciences,Pharmacy,outside,-0.08,-0.2493,0.0487,False
 Health and Human Sciences,Science,start,-12.14,-35.99,11.71,False
-Health and Human Sciences,Science,before9,0.0199,-0.0327,0.078,False
-Health and Human Sciences,Science,after5,-0.007,-0.0508,0.0431,False
-Health and Human Sciences,Science,outside,0.0137,-0.0512,0.0826,False
+Health and Human Sciences,Science,before9,0.004309,-0.0379,0.053099999999999994,False
+Health and Human Sciences,Science,after5,-0.006948,-0.0508,0.0431,False
+Health and Human Sciences,Science,outside,-0.00264,-0.061200000000000004,0.060899999999999996,False
 Health and Human Sciences,Veterinary Medicine,start,60.47,13.44,107.51,True
-Health and Human Sciences,Veterinary Medicine,before9,-0.0538,-0.2069,0.0548,False
-Health and Human Sciences,Veterinary Medicine,after5,0.0928,0.0001,0.1365,True
-Health and Human Sciences,Veterinary Medicine,outside,0.039,-0.1171,0.1513,False
+Health and Human Sciences,Veterinary Medicine,before9,-0.11372,-0.2645,-0.0085,True
+Health and Human Sciences,Veterinary Medicine,after5,0.092814,0.0001,0.1365,True
+Health and Human Sciences,Veterinary Medicine,outside,-0.02091,-0.1751,0.0892,False
 Health and Human Sciences,Libraries,start,-40.64,-124.66,43.38,False
-Health and Human Sciences,Libraries,before9,0.1497,-0.2038,0.2007,False
-Health and Human Sciences,Libraries,after5,0.0928,-0.2598,0.1365,False
-Health and Human Sciences,Libraries,outside,0.2425,-0.1123,0.3009,False
+Health and Human Sciences,Libraries,before9,0.08982,-0.2627,0.1331,False
+Health and Human Sciences,Libraries,after5,0.092814,-0.25980000000000003,0.1365,False
+Health and Human Sciences,Libraries,outside,0.18263,-0.17129999999999998,0.2368,False
 Health and Human Sciences,Business,start,-24.56,-51.55,2.44,False
-Health and Human Sciences,Business,before9,-0.0058,-0.066,0.057,False
-Health and Human Sciences,Business,after5,-0.0615,-0.1161,-0.0046,True
-Health and Human Sciences,Business,outside,-0.0673,-0.1412,0.0093,False
+Health and Human Sciences,Business,before9,-0.01383,-0.0636,0.038599999999999995,False
+Health and Human Sciences,Business,after5,-0.061486,-0.1161,-0.0046,True
+Health and Human Sciences,Business,outside,-0.07532,-0.1436,-0.0042,True
 Health and Human Sciences,Provost,start,-27.71,-64.42,9.01,False
-Health and Human Sciences,Provost,before9,0.0738,-0.0129,0.1385,False
-Health and Human Sciences,Provost,after5,-0.0169,-0.1069,0.0499,False
-Health and Human Sciences,Provost,outside,0.0568,-0.0516,0.147,False
+Health and Human Sciences,Provost,before9,0.056065,-0.013999999999999999,0.1048,False
+Health and Human Sciences,Provost,after5,-0.016886,-0.1069,0.0499,False
+Health and Human Sciences,Provost,outside,0.03917,-0.061399999999999996,0.1195,False
 Health and Human Sciences,Polytechnic,start,-4.51,-33.84,24.81,False
-Health and Human Sciences,Polytechnic,before9,-0.0159,-0.0827,0.0505,False
-Health and Human Sciences,Polytechnic,after5,-0.0372,-0.0957,0.0204,False
-Health and Human Sciences,Polytechnic,outside,-0.0532,-0.133,0.0273,False
+Health and Human Sciences,Polytechnic,before9,-0.04331,-0.1018,0.014199999999999999,False
+Health and Human Sciences,Polytechnic,after5,-0.037216,-0.09570000000000001,0.0204,False
+Health and Human Sciences,Polytechnic,outside,-0.08053,-0.15539999999999998,-0.0049,True
 Liberal Arts,Pharmacy,start,29.06,-28.67,86.78,False
-Liberal Arts,Pharmacy,before9,-0.0612,-0.2193,0.0362,False
-Liberal Arts,Pharmacy,after5,0.0144,-0.1291,0.0827,False
-Liberal Arts,Pharmacy,outside,-0.0468,-0.214,0.0793,False
+Liberal Arts,Pharmacy,before9,-0.103649,-0.258,-0.0144,True
+Liberal Arts,Pharmacy,after5,0.01441,-0.1291,0.0827,False
+Liberal Arts,Pharmacy,outside,-0.08923,-0.25489999999999996,0.0313,False
 Liberal Arts,Science,start,1.37,-16.85,19.6,False
-Liberal Arts,Science,before9,-0.0092,-0.0502,0.0293,False
-Liberal Arts,Science,after5,0.0156,-0.0224,0.0514,False
-Liberal Arts,Science,outside,0.0072,-0.0438,0.0565,False
+Liberal Arts,Science,before9,-0.02754,-0.060700000000000004,0.0026,False
+Liberal Arts,Science,after5,0.015658,-0.022400000000000003,0.051399999999999994,False
+Liberal Arts,Science,outside,-0.01187,-0.0587,0.033,False
 Liberal Arts,Veterinary Medicine,start,73.99,29.41,118.57,True
-Liberal Arts,Veterinary Medicine,before9,-0.0829,-0.2324,0.0166,False
-Liberal Arts,Veterinary Medicine,after5,0.1154,0.0253,0.1415,True
-Liberal Arts,Veterinary Medicine,outside,0.0325,-0.1184,0.134,False
+Liberal Arts,Veterinary Medicine,before9,-0.145569,-0.29410000000000003,-0.047599999999999996,True
+Liberal Arts,Veterinary Medicine,after5,0.11542,0.0253,0.14150000000000001,True
+Liberal Arts,Veterinary Medicine,outside,-0.03014,-0.18030000000000002,0.0704,False
 Liberal Arts,Libraries,start,-27.13,-110.45,56.2,False
-Liberal Arts,Libraries,before9,0.1206,-0.2313,0.1471,False
-Liberal Arts,Libraries,after5,0.1154,-0.2365,0.1415,False
-Liberal Arts,Libraries,outside,0.236,-0.1165,0.2692,False
+Liberal Arts,Libraries,before9,0.057971,-0.29359999999999997,0.0781,False
+Liberal Arts,Libraries,after5,0.11542,-0.2365,0.14150000000000001,False
+Liberal Arts,Libraries,outside,0.1734,-0.1788,0.20350000000000001,False
 Liberal Arts,Business,start,-11.04,-33.24,11.16,False
-Liberal Arts,Business,before9,-0.0349,-0.0853,0.0103,False
-Liberal Arts,Business,after5,-0.0389,-0.089,0.0059,False
-Liberal Arts,Business,outside,-0.0738,-0.136,-0.0141,True
+Liberal Arts,Business,before9,-0.045679,-0.08800000000000001,-0.009899999999999999,True
+Liberal Arts,Business,after5,-0.03888,-0.08900000000000001,0.0059,False
+Liberal Arts,Business,outside,-0.08455,-0.1431,-0.0294,True
 Liberal Arts,Provost,start,-14.19,-47.6,19.22,False
-Liberal Arts,Provost,before9,0.0447,-0.0354,0.0925,False
-Liberal Arts,Provost,after5,0.0057,-0.0816,0.0625,False
-Liberal Arts,Provost,outside,0.0503,-0.0504,0.1267,False
+Liberal Arts,Provost,before9,0.024216,-0.0408,0.054400000000000004,False
+Liberal Arts,Provost,after5,0.00572,-0.0816,0.0625,False
+Liberal Arts,Provost,outside,0.02994,-0.0644,0.0965,False
 Liberal Arts,Polytechnic,start,9.0,-15.99,34.0,False
-Liberal Arts,Polytechnic,before9,-0.045,-0.103,0.0051,False
-Liberal Arts,Polytechnic,after5,-0.0146,-0.0689,0.0311,False
-Liberal Arts,Polytechnic,outside,-0.0597,-0.1287,0.0049,False
+Liberal Arts,Polytechnic,before9,-0.075159,-0.1275,-0.0322,True
+Liberal Arts,Polytechnic,after5,-0.01461,-0.0689,0.0311,False
+Liberal Arts,Polytechnic,outside,-0.08976,-0.1559,-0.028999999999999998,True
 Pharmacy,Science,start,-27.68,-86.0,30.63,False
-Pharmacy,Science,before9,0.052,-0.0478,0.2109,False
-Pharmacy,Science,after5,0.0012,-0.0692,0.1451,False
-Pharmacy,Science,outside,0.054,-0.0744,0.2224,False
+Pharmacy,Science,before9,0.076109,-0.015700000000000002,0.2314,False
+Pharmacy,Science,after5,0.001248,-0.0692,0.1451,False
+Pharmacy,Science,outside,0.07736,-0.045599999999999995,0.24420000000000003,False
 Pharmacy,Veterinary Medicine,start,44.93,-25.37,115.23,False
-Pharmacy,Veterinary Medicine,before9,-0.0217,-0.1967,0.1618,False
-Pharmacy,Veterinary Medicine,after5,0.101,-0.0068,0.2428,False
-Pharmacy,Veterinary Medicine,outside,0.0793,-0.1121,0.2697,False
+Pharmacy,Veterinary Medicine,before9,-0.04192,-0.2134,0.1392,False
+Pharmacy,Veterinary Medicine,after5,0.10101,-0.0068000000000000005,0.24280000000000002,False
+Pharmacy,Veterinary Medicine,outside,0.05909,-0.1292,0.2487,False
 Pharmacy,Libraries,start,-56.18,-151.52,39.16,False
-Pharmacy,Libraries,before9,0.1818,-0.1817,0.3383,False
-Pharmacy,Libraries,after5,0.101,-0.2558,0.2428,False
-Pharmacy,Libraries,outside,0.2828,-0.0889,0.4473,False
+Pharmacy,Libraries,before9,0.16162,-0.2002,0.3153,False
+Pharmacy,Libraries,after5,0.10101,-0.25579999999999997,0.24280000000000002,False
+Pharmacy,Libraries,outside,0.26263,-0.1075,0.42619999999999997,False
 Pharmacy,Business,start,-40.1,-99.69,19.5,False
-Pharmacy,Business,before9,0.0263,-0.0777,0.187,False
-Pharmacy,Business,after5,-0.0533,-0.1309,0.0931,False
-Pharmacy,Business,outside,-0.027,-0.1601,0.1448,False
+Pharmacy,Business,before9,0.05797,-0.0375,0.2144,False
+Pharmacy,Business,after5,-0.05329,-0.1309,0.0931,False
+Pharmacy,Business,outside,0.00468,-0.1232,0.1746,False
 Pharmacy,Provost,start,-43.25,-107.54,21.05,False
-Pharmacy,Provost,before9,0.1059,-0.0154,0.2673,False
-Pharmacy,Provost,after5,-0.0087,-0.1142,0.1418,False
-Pharmacy,Provost,outside,0.0971,-0.0579,0.2754,False
+Pharmacy,Provost,before9,0.127865,0.0203,0.2832,True
+Pharmacy,Provost,after5,-0.00869,-0.1142,0.1418,False
+Pharmacy,Provost,outside,0.11917,-0.0285,0.29309999999999997,False
 Pharmacy,Polytechnic,start,-20.05,-80.68,40.57,False
-Pharmacy,Polytechnic,before9,0.0162,-0.0918,0.1783,False
-Pharmacy,Polytechnic,after5,-0.029,-0.1094,0.1177,False
-Pharmacy,Polytechnic,outside,-0.0129,-0.1494,0.1607,False
+Pharmacy,Polytechnic,before9,0.02849,-0.0718,0.1868,False
+Pharmacy,Polytechnic,after5,-0.02902,-0.1094,0.1177,False
+Pharmacy,Polytechnic,outside,-0.00053,-0.1321,0.17129999999999998,False
 Science,Veterinary Medicine,start,72.61,27.26,117.97,True
-Science,Veterinary Medicine,before9,-0.0737,-0.2241,0.0282,False
-Science,Veterinary Medicine,after5,0.0998,0.009,0.131,True
-Science,Veterinary Medicine,outside,0.0253,-0.1269,0.1296,False
+Science,Veterinary Medicine,before9,-0.118029,-0.2675,-0.0177,True
+Science,Veterinary Medicine,after5,0.099762,0.009000000000000001,0.131,True
+Science,Veterinary Medicine,outside,-0.01827,-0.1697,0.0851,False
 Science,Libraries,start,-28.5,-112.03,55.03,False
-Science,Libraries,before9,0.1298,-0.2225,0.1641,False
-Science,Libraries,after5,0.0998,-0.2523,0.131,False
-Science,Libraries,outside,0.2288,-0.1243,0.2699,False
+Science,Libraries,before9,0.085511,-0.2664,0.1151,False
+Science,Libraries,after5,0.099762,-0.2523,0.131,False
+Science,Libraries,outside,0.18527,-0.1675,0.22390000000000002,False
 Science,Business,start,-12.42,-36.21,11.38,False
-Science,Business,before9,-0.0257,-0.0788,0.0245,False
-Science,Business,after5,-0.0545,-0.1059,-0.0066,True
-Science,Business,outside,-0.081,-0.1464,-0.0166,True
+Science,Business,before9,-0.018139,-0.0636,0.023700000000000002,False
+Science,Business,after5,-0.054538,-0.1059,-0.0066,True
+Science,Business,outside,-0.07268,-0.1346,-0.0125,True
 Science,Provost,start,-15.56,-50.03,18.9,False
-Science,Provost,before9,0.0539,-0.028,0.1065,False
-Science,Provost,after5,-0.0099,-0.098,0.0494,False
-Science,Provost,outside,0.0431,-0.0597,0.1232,False
+Science,Provost,before9,0.051756,-0.0154,0.0889,False
+Science,Provost,after5,-0.009938,-0.098,0.049400000000000006,False
+Science,Provost,outside,0.04181,-0.0546,0.11259999999999999,False
 Science,Polytechnic,start,7.63,-18.79,34.04,False
-Science,Polytechnic,before9,-0.0358,-0.0962,0.0189,False
-Science,Polytechnic,after5,-0.0302,-0.0857,0.0185,False
-Science,Polytechnic,outside,-0.0669,-0.1388,0.0021,False
+Science,Polytechnic,before9,-0.047619,-0.1025,0.0005,False
+Science,Polytechnic,after5,-0.030268,-0.0857,0.018500000000000003,False
+Science,Polytechnic,outside,-0.07789,-0.147,-0.0125,True
 Veterinary Medicine,Libraries,start,-101.11,-190.7,-11.53,True
-Veterinary Medicine,Libraries,before9,0.2035,-0.1606,0.3513,False
-Veterinary Medicine,Libraries,after5,0.0,-0.3512,0.0874,False
-Veterinary Medicine,Libraries,outside,0.2035,-0.1606,0.3513,False
+Veterinary Medicine,Libraries,before9,0.20354,-0.1606,0.3513,False
+Veterinary Medicine,Libraries,after5,0.0,-0.35119999999999996,0.0874,False
+Veterinary Medicine,Libraries,outside,0.20354,-0.1606,0.3513,False
 Veterinary Medicine,Business,start,-85.03,-132.04,-38.01,True
-Veterinary Medicine,Business,before9,0.048,-0.058,0.2003,False
-Veterinary Medicine,Business,after5,-0.1543,-0.1994,-0.0596,True
-Veterinary Medicine,Business,outside,-0.1063,-0.2165,0.0496,False
+Veterinary Medicine,Business,before9,0.09989,-0.0039000000000000003,0.2506,False
+Veterinary Medicine,Business,after5,-0.1543,-0.19940000000000002,-0.0596,True
+Veterinary Medicine,Business,outside,-0.05441,-0.1636,0.10039999999999999,False
 Veterinary Medicine,Provost,start,-88.18,-141.13,-35.22,True
-Veterinary Medicine,Provost,before9,0.1276,0.0046,0.2806,True
+Veterinary Medicine,Provost,before9,0.169785,0.054900000000000004,0.3193,True
 Veterinary Medicine,Provost,after5,-0.1097,-0.1943,-0.0087,True
-Veterinary Medicine,Provost,outside,0.0178,-0.1179,0.1808,False
+Veterinary Medicine,Provost,outside,0.06008,-0.0718,0.2193,False
 Veterinary Medicine,Polytechnic,start,-64.98,-113.32,-16.65,True
-Veterinary Medicine,Polytechnic,before9,0.0379,-0.072,0.1917,False
-Veterinary Medicine,Polytechnic,after5,-0.13,-0.1797,-0.0349,True
-Veterinary Medicine,Polytechnic,outside,-0.0922,-0.2064,0.0657,False
+Veterinary Medicine,Polytechnic,before9,0.07041,-0.0378,0.223,False
+Veterinary Medicine,Polytechnic,after5,-0.13003,-0.1797,-0.0349,True
+Veterinary Medicine,Polytechnic,outside,-0.05962,-0.17309999999999998,0.0973,False
 Libraries,Business,start,16.09,-67.93,100.1,False
-Libraries,Business,before9,-0.1555,-0.2007,0.1977,False
-Libraries,Business,after5,-0.1543,-0.1994,0.1988,False
-Libraries,Business,outside,-0.3098,-0.3641,0.0449,False
+Libraries,Business,before9,-0.10365,-0.1432,0.2488,False
+Libraries,Business,after5,-0.1543,-0.19940000000000002,0.19879999999999998,False
+Libraries,Business,outside,-0.25795,-0.3102,0.09630000000000001,False
 Libraries,Provost,start,12.94,-73.24,99.11,False
-Libraries,Provost,before9,-0.0759,-0.1529,0.2775,False
+Libraries,Provost,before9,-0.033755,-0.09699999999999999,0.3182,False
 Libraries,Provost,after5,-0.1097,-0.1943,0.2451,False
-Libraries,Provost,outside,-0.1857,-0.2818,0.1722,False
+Libraries,Provost,outside,-0.14346,-0.2339,0.2127,False
 Libraries,Polytechnic,start,36.13,-48.31,120.57,False
-Libraries,Polytechnic,before9,-0.1656,-0.2192,0.1882,False
-Libraries,Polytechnic,after5,-0.13,-0.1797,0.2232,False
-Libraries,Polytechnic,outside,-0.2957,-0.3577,0.0599,False
+Libraries,Polytechnic,before9,-0.13313,-0.1832,0.2202,False
+Libraries,Polytechnic,after5,-0.13003,-0.1797,0.2232,False
+Libraries,Polytechnic,outside,-0.26316,-0.3237,0.092,False
 Business,Provost,start,-3.15,-39.83,33.54,False
-Business,Provost,before9,0.0796,-0.0056,0.1398,False
-Business,Provost,after5,0.0446,-0.0475,0.1123,False
-Business,Provost,outside,0.1241,0.0159,0.2117,True
+Business,Provost,before9,0.069895,0.0001,0.11539999999999999,True
+Business,Provost,after5,0.0446,-0.0475,0.11230000000000001,False
+Business,Provost,outside,0.11449,0.0129,0.1935,True
 Business,Polytechnic,start,20.04,-9.24,49.33,False
-Business,Polytechnic,before9,-0.0101,-0.075,0.0519,False
-Business,Polytechnic,after5,0.0243,-0.0374,0.0829,False
-Business,Polytechnic,outside,0.0141,-0.0653,0.0917,False
+Business,Polytechnic,before9,-0.02948,-0.0876,0.0254,False
+Business,Polytechnic,after5,0.02427,-0.0374,0.08289999999999999,False
+Business,Polytechnic,outside,-0.00521,-0.0814,0.069,False
 Provost,Polytechnic,start,23.19,-15.21,61.6,False
-Provost,Polytechnic,before9,-0.0897,-0.1565,-0.0018,True
-Provost,Polytechnic,after5,-0.0203,-0.0912,0.0722,False
-Provost,Polytechnic,outside,-0.11,-0.2026,0.0009,False
+Provost,Polytechnic,before9,-0.099375,-0.1543,-0.0256,True
+Provost,Polytechnic,after5,-0.02033,-0.09119999999999999,0.0722,False
+Provost,Polytechnic,outside,-0.1197,-0.2045,-0.015,True

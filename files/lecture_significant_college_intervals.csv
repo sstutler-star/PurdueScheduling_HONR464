@@ -1,50 +1,69 @@
 ﻿college,other,metric,estimate,lower,upper,significant
 Agriculture,Education,start,-70.16,-112.95,-27.37,True
-Agriculture,Education,after5,-0.1803,-0.2815,-0.0866,True
-Agriculture,Education,outside,-0.1344,-0.2496,-0.0207,True
+Agriculture,Education,after5,-0.180253,-0.2815,-0.0866,True
+Agriculture,Education,outside,-0.15066,-0.2619,-0.0426,True
 Agriculture,Engineering,start,-28.59,-56.23,-0.96,True
 Agriculture,Veterinary Medicine,start,55.65,6.86,104.44,True
-Agriculture,Business,after5,-0.0753,-0.1311,-0.0111,True
-Agriculture,Business,outside,-0.0886,-0.1679,-0.0019,True
+Agriculture,Veterinary Medicine,before9,-0.110989,-0.2631,-0.0002,True
+Agriculture,Business,after5,-0.075293,-0.1311,-0.0111,True
+Agriculture,Business,outside,-0.08639,-0.1593,-0.0054,True
+Agriculture,Polytechnic,outside,-0.0916,-0.1707,-0.0066,True
 Education,Engineering,start,41.57,2.61,80.53,True
-Education,Engineering,after5,0.1244,0.0395,0.2244,True
+Education,Engineering,after5,0.12432,0.0395,0.22440000000000002,True
+Education,Engineering,outside,0.11338,0.0192,0.2184,True
 Education,Health and Human Sciences,start,65.34,24.61,106.07,True
-Education,Health and Human Sciences,after5,0.1665,0.0777,0.2671,True
-Education,Health and Human Sciences,outside,0.1131,0.0069,0.2247,True
+Education,Health and Human Sciences,after5,0.166446,0.07769999999999999,0.2671,True
+Education,Health and Human Sciences,outside,0.13959,0.0387,0.24780000000000002,True
 Education,Liberal Arts,start,51.82,14.05,89.6,True
-Education,Liberal Arts,after5,0.1439,0.0623,0.2421,True
-Education,Liberal Arts,outside,0.1196,0.0249,0.2237,True
+Education,Liberal Arts,after5,0.14384,0.0623,0.2421,True
+Education,Liberal Arts,outside,0.14882,0.058499999999999996,0.25120000000000003,True
 Education,Pharmacy,start,80.88,14.3,147.46,True
 Education,Science,start,53.2,14.48,91.92,True
-Education,Science,after5,0.1595,0.0762,0.2584,True
-Education,Science,outside,0.1268,0.0291,0.2329,True
+Education,Science,after5,0.159498,0.0762,0.2584,True
+Education,Science,outside,0.13695,0.0434,0.2413,True
 Education,Veterinary Medicine,start,125.81,70.07,181.56,True
-Education,Veterinary Medicine,after5,0.2593,0.1426,0.3551,True
+Education,Veterinary Medicine,before9,-0.140577,-0.2921,-0.0233,True
+Education,Veterinary Medicine,after5,0.25926,0.1426,0.35509999999999997,True
 Education,Business,start,40.78,0.08,81.49,True
-Education,Business,after5,0.105,0.0155,0.2075,True
-Education,Provost,after5,0.1496,0.035,0.2579,True
-Education,Provost,outside,0.1699,0.0392,0.291,True
+Education,Business,after5,0.10496,0.0155,0.2075,True
+Education,Provost,after5,0.14956,0.035,0.2579,True
+Education,Provost,outside,0.17876,0.0545,0.29410000000000003,True
 Education,Polytechnic,start,60.83,18.57,103.09,True
-Education,Polytechnic,after5,0.1293,0.0374,0.2321,True
+Education,Polytechnic,after5,0.12923,0.0374,0.2321,True
 Engineering,Veterinary Medicine,start,84.24,38.69,129.8,True
-Engineering,Veterinary Medicine,after5,0.1349,0.0429,0.17,True
+Engineering,Veterinary Medicine,before9,-0.129644,-0.2789,-0.0296,True
+Engineering,Veterinary Medicine,after5,0.13494,0.0429,0.17,True
+Engineering,Polytechnic,before9,-0.059234,-0.11349999999999999,-0.011899999999999999,True
 Health and Human Sciences,Veterinary Medicine,start,60.47,13.44,107.51,True
-Health and Human Sciences,Veterinary Medicine,after5,0.0928,0.0001,0.1365,True
-Health and Human Sciences,Business,after5,-0.0615,-0.1161,-0.0046,True
+Health and Human Sciences,Veterinary Medicine,before9,-0.11372,-0.2645,-0.0085,True
+Health and Human Sciences,Veterinary Medicine,after5,0.092814,0.0001,0.1365,True
+Health and Human Sciences,Business,after5,-0.061486,-0.1161,-0.0046,True
+Health and Human Sciences,Business,outside,-0.07532,-0.1436,-0.0042,True
+Health and Human Sciences,Polytechnic,outside,-0.08053,-0.15539999999999998,-0.0049,True
+Liberal Arts,Pharmacy,before9,-0.103649,-0.258,-0.0144,True
 Liberal Arts,Veterinary Medicine,start,73.99,29.41,118.57,True
-Liberal Arts,Veterinary Medicine,after5,0.1154,0.0253,0.1415,True
-Liberal Arts,Business,outside,-0.0738,-0.136,-0.0141,True
+Liberal Arts,Veterinary Medicine,before9,-0.145569,-0.29410000000000003,-0.047599999999999996,True
+Liberal Arts,Veterinary Medicine,after5,0.11542,0.0253,0.14150000000000001,True
+Liberal Arts,Business,before9,-0.045679,-0.08800000000000001,-0.009899999999999999,True
+Liberal Arts,Business,outside,-0.08455,-0.1431,-0.0294,True
+Liberal Arts,Polytechnic,before9,-0.075159,-0.1275,-0.0322,True
+Liberal Arts,Polytechnic,outside,-0.08976,-0.1559,-0.028999999999999998,True
+Pharmacy,Provost,before9,0.127865,0.0203,0.2832,True
 Science,Veterinary Medicine,start,72.61,27.26,117.97,True
-Science,Veterinary Medicine,after5,0.0998,0.009,0.131,True
-Science,Business,after5,-0.0545,-0.1059,-0.0066,True
-Science,Business,outside,-0.081,-0.1464,-0.0166,True
+Science,Veterinary Medicine,before9,-0.118029,-0.2675,-0.0177,True
+Science,Veterinary Medicine,after5,0.099762,0.009000000000000001,0.131,True
+Science,Business,after5,-0.054538,-0.1059,-0.0066,True
+Science,Business,outside,-0.07268,-0.1346,-0.0125,True
+Science,Polytechnic,outside,-0.07789,-0.147,-0.0125,True
 Veterinary Medicine,Libraries,start,-101.11,-190.7,-11.53,True
 Veterinary Medicine,Business,start,-85.03,-132.04,-38.01,True
-Veterinary Medicine,Business,after5,-0.1543,-0.1994,-0.0596,True
+Veterinary Medicine,Business,after5,-0.1543,-0.19940000000000002,-0.0596,True
 Veterinary Medicine,Provost,start,-88.18,-141.13,-35.22,True
-Veterinary Medicine,Provost,before9,0.1276,0.0046,0.2806,True
+Veterinary Medicine,Provost,before9,0.169785,0.054900000000000004,0.3193,True
 Veterinary Medicine,Provost,after5,-0.1097,-0.1943,-0.0087,True
 Veterinary Medicine,Polytechnic,start,-64.98,-113.32,-16.65,True
-Veterinary Medicine,Polytechnic,after5,-0.13,-0.1797,-0.0349,True
-Business,Provost,outside,0.1241,0.0159,0.2117,True
-Provost,Polytechnic,before9,-0.0897,-0.1565,-0.0018,True
+Veterinary Medicine,Polytechnic,after5,-0.13003,-0.1797,-0.0349,True
+Business,Provost,before9,0.069895,0.0001,0.11539999999999999,True
+Business,Provost,outside,0.11449,0.0129,0.1935,True
+Provost,Polytechnic,before9,-0.099375,-0.1543,-0.0256,True
+Provost,Polytechnic,outside,-0.1197,-0.2045,-0.015,True
