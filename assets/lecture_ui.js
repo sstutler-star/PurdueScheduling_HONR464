@@ -37,18 +37,17 @@
     document.head.appendChild(css);
 
     const notice = document.createElement('div');
-    notice.className = 'lecture-notice';
-    notice.innerHTML = `<strong>Measurement comparability:</strong> The uploaded lecture-only MATLAB output labels its early-start difference intervals <strong>Before 9:30 AM</strong>, while the main analysis labels them <strong>Before 9 AM</strong>. The morning panels are not directly comparable as a lecture-only sensitivity check unless this discrepancy is only a labeling error. The Outside 9-to-5 measure may also be affected if the earlier cutoff is used to calculate it. Verify the actual thresholds in your MATLAB code before drawing conclusions.`;
-    const compare = page.querySelector('.compare-grid');
-    if (compare) page.insertBefore(notice, compare);
-    else page.prepend(notice);
+    notice.className='lecture-notice';
+    notice.innerHTML = `<strong>Comparable morning cutoffs:</strong> Both the baseline and corrected lecture-only analysis use <strong>before 9:00 AM</strong> for their morning measure and <strong>outside 9:00 AM–5:00 PM</strong> for the composite measure. The lecture-only specification changes the included section types, not the time threshold. Do not pool bounds from the two sets of difference intervals.`;
+    const compare=page.querySelector('.compare-grid');
+    if(compare) page.insertBefore(notice,compare);else page.prepend(notice);
 
     const section = document.createElement('section');
     section.id = 'lectureOnlyTables';
     section.className = 'lecture-section';
     section.innerHTML = `
       <h2>Lecture-only summary tables</h2>
-      <p class="lecture-subtitle">Detailed lecture-only subject results, college results, and semester comparisons. Numbers come from the supplied MATLAB output; numerator counts were reconstructed from printed rounded proportions and standard deviations were not supplied.</p>
+      <p class="lecture-subtitle">Detailed lecture-only subject results, college results, and semester comparisons. Numbers come from the corrected 9 AM lecture-only MATLAB output. Numerators are estimates reconstructed from rounded proportions; standard deviations were not supplied.</p>
       <div class="lecture-box">
         <div class="lecture-fields">
           <label>Dataset<select id="lectureTableMode">
@@ -66,16 +65,12 @@
         <div class="lecture-pages"><button type="button" id="lecturePrev">Previous</button><span id="lecturePageCounter"></span><button type="button" id="lectureNext">Next</button></div>
       </div>
       <h2 style="margin-top:32px">Download the lecture-only results</h2>
-      <p class="lecture-subtitle">Full CSVs include all 264 college-level intervals and their 49 significant comparisons; the separate subject file contains the five reported significant subject intervals.</p>
+      <p class="lecture-subtitle">Full CSVs include all 264 college-level intervals and their 68 significant comparisons; the separate subject file contains the 8 reported significant subject intervals.</p>
       <div class="lecture-downloads" id="lectureDownloads"></div>
     `;
     page.appendChild(section);
     const downloadBox = section.querySelector('#lectureDownloads');
-    const allDownloads = [
-      ...l.downloads,
-      {label:'Lecture-only Fall college table',file:'files/lecture_fall_2026_colleges.csv'},
-      {label:'Lecture-only Spring college table',file:'files/lecture_spring_2026_colleges.csv'}
-    ];
+    const allDownloads = l.downloads;
     for (const entry of allDownloads) {
       const a=document.createElement('a');
       a.href=entry.file;
@@ -140,28 +135,7 @@
     next.addEventListener('click',()=>{currentPage++;render()});
     render();
 
-    // Existing app.js redraws chart headings on dataset changes. Keep labels faithful to source.
-    const dataset=document.getElementById('intervalDataset');
-    function annotateMainPlots() {
-      const holder=document.getElementById('mainIntervalPlots');
-      if (!holder || !dataset) return;
-      const firstTitle=holder.querySelector('.plot-card h3');
-      if (firstTitle && dataset.value==='lecture') firstTitle.textContent='Before 9:30 AM (as reported)';
-    }
-    if(dataset){dataset.addEventListener('change',annotateMainPlots);annotateMainPlots()}
-    const comparisonMetric=document.getElementById('compareMetric');
-    function annotateComparison() {
-      const holder=document.getElementById('compareLecture');
-      const main=document.getElementById('compareMain');
-      if(!holder || !comparisonMetric || !main) return;
-      for(const item of [main,holder]) {const old=item.querySelector('.lecture-mini-label');if(old)old.remove()}
-      if(comparisonMetric.value==='before9') {
-        const p1=document.createElement('p');p1.className='lecture-mini-label';p1.textContent='Main: Before 9 AM';main.prepend(p1);
-        const p2=document.createElement('p');p2.className='lecture-mini-label';p2.textContent='Lecture-only output: Before 9:30 AM — not directly comparable';holder.prepend(p2);
-      } else if(comparisonMetric.value==='outside') {
-        const p=document.createElement('p');p.className='lecture-mini-label';p.textContent='Check whether the lecture-only early cutoff also changes this outside-window measure.';holder.prepend(p);
-      }
-    }
-    if(comparisonMetric){comparisonMetric.addEventListener('change',annotateComparison);annotateComparison()}
+    // The original app.js handles college and metric selections for both panels.
+    // The corrected source is now Before 9 AM on both sides, so do not relabel charts.
   });
 })();
